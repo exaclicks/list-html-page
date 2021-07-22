@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+onwin-review-tip-2<!DOCTYPE html>
 <html amp lang="TR-tr">
 <head>
 <!-- ======= Head ======= -->
@@ -110,11 +110,72 @@
   <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
 
 <style amp-custom>
+.navbar {
+  overflow: hidden;
+}
 
+.navbar a {
+  float: right;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #ddd;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  background-color: #ddd;
+
+}
 
 
 /* FOR DESKTOP */
-
+.greenText{
+    color: #1d7b18;
+}
 @media (min-width : 1000px) {
     .logoForMobil{
         display:  inline-block;
@@ -123,6 +184,11 @@
     .logoForDesktop{
         display: none;
     }
+    
+.navbarLogo{
+    position:absolute;
+    float:left;
+}
 }
 .logoForMobil{
         display:  none;
@@ -136,7 +202,9 @@
     .logoForMobil{
         display:  inline-block;
     }
-    
+    .navbarLogo{
+        position: relative;
+    }
     .logoForDesktop{
         display: none;
     }
@@ -145,7 +213,18 @@
 
 /* FOR MOBİLE */
 @media (max-width : 500px) {
-    
+    .navbar a, .dropdown{
+        float:none;
+    }
+    .navbaritem{
+        padding-top: 0px;
+    }
+    .dropdown .dropbtn{
+        padding:8px 16px;
+    }
+    .dropdown-content a{
+        padding: 4px 16px;
+    }
 }
 
 
@@ -1512,10 +1591,7 @@ html[data-useragent=ie] .cute-12-desktop {
     padding: 0;
     border-radius: 3px;
 }
-.v3-table .buyuk-tablo .table-body .item-row .bahis-sitesi-satir .bahis-sitesi-logosu .img-wrapper a {
-    display: block;
-    width: 100%;
-    height: 100%}
+
 .v3-table .buyuk-tablo .table-body .item-row .bahis-sitesi-satir .sep {
     display: none;
 }
@@ -2970,6 +3046,15 @@ button {
     }
     
 
+
+#header-navbar{
+    padding-bottom:50px;
+}
+
+
+.navbaritem{
+    padding-top:25px;
+}
 </style>
 
 
@@ -2979,17 +3064,83 @@ button {
 </head>
 
 <body>
-    <div class="grid-container">
-        <div class="header">
+    
+    <div class="grid-container" id="header-navbar">
+
+
+
+<div class="navbar">
+    <div class="navbarLogo">
+        <amp-img data-amp-auto-lightbox-disable  src="assets/img/logo.webp"  alt="1xbet"   width="180" height="102"></amp-img>
+    </div>
+    <div class="navbaritem">
+        <a  href="#online-bahis-sitelerini-nasil-degerlendiriyoruz">Nasıl değerlendiriyoruz?</a>
+    </div>
+
+    <div class="dropdown ">
+      <button class="dropbtn">Yabancı Bahis Siteleri 
+      </button>
+      <div class="dropdown-content">
+        <a href="#bets10-review-tip-2">Bets10</a>
+        <a href="#jetbahis-review-tip-2">Jetbahis</a>
+        <a href="#mobilbahis-review-tip-2">Mobilbahis</a>
+        <a href="#tipobet365-review-tip-2">Tipobet365</a>
+        <a href="#supertotobet-review-tip-2">Süpertotobetin</a>
+        <a href="#onwin-review-tip-2">Onwin</a>
+      </div>
+    </div> 
+    <div class="dropdown ">
+        <button class="dropbtn">Yazılar 
+        </button>
+        <div class="dropdown-content">
+          <a href="#guvenilir-bahis-siteleri-nasil-anlasilir">Güvenilir Bahis Siteleri Nasıl Anlaşılır?</a>
+          <a href="#bir-bahis-sitesinin-guvenilir-oldugunun-kaniti-nelerdir">Bir Bahis Sitesinin Güvenilir Olduğunun Kanıtı Nelerdir? </a>
+          <a href="#guvenilir-bahis-sitesi-var-midir">Güvenilir bahis sitesi var mıdır? </a>
+          <a href="#online-bahis-sitelerini-nasil-degerlendiriyoruz">Online bahis sitelerini nasıl değerlendiriyoruz?</a>
+          <a href="#en-iyi-bahis-siteleri">En iyi Bahis Siteleri </a>
+          <a href="#en-iyi-bahis-siteleri-hangileridir">En İyi Bahis Siteleri Hangileridir?</a>
+          <a href="#en-iyi-bahis-siteleri-spor-bahisleri-nelerdir">En İyi Bahis Siteleri Spor Bahisleri Nelerdir?</a>
+          <a href="#en-iyi-bahis-siteleri-casino-oyunlari-nelerdir">En İyi Bahis Siteleri Casino Oyunları Nelerdir?</a>
+          <a href="#bahis-siteleri-para-yatirma-secenekleri-nelerdir">Bahis Siteleri Para Yatırma Seçenekleri Nelerdir?</a>
+          <a href="#deneme-bonusu-veren-siteler">Deneme Bonusu Veren Siteler</a>
+          <a href="#hosgeldin-bonusu-veren-bahis-siteleri">Hoşgeldin Bonusu Veren Bahis Siteleri</a>
+          <a href="#hosgeldin-bonusu-veren-siteleri-hangileridir">Hoşgeldin Bonusu Veren Bahis Siteleri Hangileridir?</a>
+          <a href="#hosgeldin-bonusu-nedir">Hoşgeldin Bonusu Nedir?</a>
+          <a href="#hosgeldin-bonusu-alabilmenin-kurallari-nelerdir">Hoşgeldin Bonusu Alabilmenin Kuralları</a>
+          <a href="#hosgeldin-bonusu-cevrim-sartlari-nelerdir">Hoşgeldin Bonusu Çevrim Şartları Nelerdir?</a>
+         
+
+        </div>
+      </div> 
+
+      <div class="">
+        <a  href="#guvenilir-bahis-siteleri">Güvenilir Bahis Siteleri</a>
+    </div>
+
+ 
+  </div>
+
+
+<!--         <div class="header">
             <amp-img data-amp-auto-lightbox-disable  src="assets/img/logo.webp"  alt="1xbet"  class="logoForDesktop"  width="180" height="102"></amp-img>
             <amp-img data-amp-auto-lightbox-disable  src="assets/img/logo.webp"  alt="1xbet"  class="logoForMobil"  width="50" height="50"></amp-img>
+            
+                
+              </div>
+
             <div class="header-right">
-              <a href="#guvenilir-bahis-siteleri">Canlı Bahis</a>
-              <a href="#bahis-siteleri-tablosu-basligi">Bahis Siteleri</a>
-              <a href="#ozellikler">Özellikler</a>
-              <a href="#bets10">bets10</a>
+              <a href="#guvenilir-bahis-siteleri">Güvenilir Bahis Siteleri</a>
+              <a href="#bahis-siteleri-tablosu-1">Yabancı Bahis Siteleri</a>
+              <a href="#online-bahis-sitelerini-nasil-degerlendiriyoruz">Online bahis sitelerini nasıl değerlendiriyoruz?</a>
+              <ahref="#bets10">Blog</a>
+              <button class="dropbtn">Dropdown</button>
+                <div class="dropdown-content">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
             </div>
-          </div>
+          </div> -->
     </div>
 
    
@@ -3044,7 +3195,7 @@ button {
                     <div class="bahis-sitesi-logosu">
                     <div class="img-wrapper">
 
-                        <a  href="https://clbanners9.com/_hpqXK8FyzF-8b2dNZ7AUyWNd7ZgqdRLk/2/"
+                        <a target="_blank"  rel="noopener" href="https://clbanners9.com/_hpqXK8FyzF-8b2dNZ7AUyWNd7ZgqdRLk/2/"
                         
                         class="cta-rm-table-2 cta-rm-table">
                         <amp-img data-amp-auto-lightbox-disable  
@@ -3094,7 +3245,7 @@ button {
                     </ul>
                     </div>
                     <div class="cta">
-                    <a aria-label="link" href="https://clbanners9.com/_hpqXK8FyzF-8b2dNZ7AUyWNd7ZgqdRLk/2/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
+                    <a target="_blank"  rel="noopener"aria-label="link" href="https://clbanners9.com/_hpqXK8FyzF-8b2dNZ7AUyWNd7ZgqdRLk/2/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
                     </div>
                     </div>
                 
@@ -3110,7 +3261,7 @@ button {
                     <div class="bahis-sitesi-logosu">
                     <div class="img-wrapper">
 
-                        <a  href="https://clbanners6.com/_hpqXK8FyzF-22a5QkwDt8GNd7ZgqdRLk/2/"
+                        <a target="_blank"  rel="noopener" href="https://clbanners6.com/_hpqXK8FyzF-22a5QkwDt8GNd7ZgqdRLk/2/"
                         
                         class="cta-rm-table-2 cta-rm-table">
                         <amp-img data-amp-auto-lightbox-disable  
@@ -3157,7 +3308,7 @@ button {
                     </ul>
                     </div>
                     <div class="cta">
-                    <a aria-label="link" href="https://clbanners6.com/_hpqXK8FyzF-22a5QkwDt8GNd7ZgqdRLk/2/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
+                    <a target="_blank"  rel="noopener"aria-label="link" href="https://clbanners6.com/_hpqXK8FyzF-22a5QkwDt8GNd7ZgqdRLk/2/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
                     </div>
                     </div>
                 
@@ -3172,7 +3323,7 @@ button {
                     <div class="bahis-sitesi-logosu">
                     <div class="img-wrapper">
 
-                        <a  href="https://siteye.club/redirect/1xbet/"
+                        <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/1xbet/"
                         
                         class="cta-rm-table-2 cta-rm-table">
                         <amp-img data-amp-auto-lightbox-disable  
@@ -3219,7 +3370,7 @@ button {
                     </ul>
                     </div>
                     <div class="cta">
-                    <a aria-label="link" href="https://siteye.club/redirect/1xbet/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
+                    <a target="_blank"  rel="noopener"aria-label="link" href="https://siteye.club/redirect/1xbet/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
                     </div>
                     </div>
                 
@@ -3235,7 +3386,7 @@ button {
                     <div class="bahis-sitesi-logosu">
                     <div class="img-wrapper">
 
-                        <a  href="https://siteye.club/redirect/tipobet365/"
+                        <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/tipobet365/"
                         
                         class="cta-rm-table-2 cta-rm-table">
                         <amp-img data-amp-auto-lightbox-disable  
@@ -3283,7 +3434,7 @@ button {
                     </ul>
                     </div>
                     <div class="cta">
-                    <a aria-label="link" href="https://siteye.club/redirect/tipobet365/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
+                    <a target="_blank"  rel="noopener"aria-label="link" href="https://siteye.club/redirect/tipobet365/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
                     </div>
                     </div>
                 
@@ -3299,7 +3450,7 @@ button {
                     <div class="bahis-sitesi-logosu">
                     <div class="img-wrapper">
 
-                        <a  href="https://media.tebanner.com/redirect.aspx?pid=6220&bid=2812"
+                        <a target="_blank"  rel="noopener" href="https://media.tebanner.com/redirect.aspx?pid=6220&bid=2812"
                         
                         class="cta-rm-table-2 cta-rm-table">
                         <amp-img data-amp-auto-lightbox-disable  
@@ -3347,7 +3498,7 @@ button {
                     </ul>
                     </div>
                     <div class="cta">
-                    <a aria-label="link" href="https://media.tebanner.com/redirect.aspx?pid=6220&bid=2812" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
+                    <a target="_blank"  rel="noopener"aria-label="link" href="https://media.tebanner.com/redirect.aspx?pid=6220&bid=2812" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
                     </div>
                     </div>
                 
@@ -3363,7 +3514,7 @@ button {
                     <div class="bahis-sitesi-logosu">
                     <div class="img-wrapper">
 
-                        <a  href="https://media.tebanner.com/redirect.aspx?pid=6220&bid=2686&lpid=21"
+                        <a target="_blank"  rel="noopener" href="https://media.tebanner.com/redirect.aspx?pid=6220&bid=2686&lpid=21"
                         
                         class="cta-rm-table-2 cta-rm-table">
                         <amp-img data-amp-auto-lightbox-disable  
@@ -3411,7 +3562,7 @@ button {
                     </ul>
                     </div>
                     <div class="cta">
-                    <a aria-label="link" href="https://media.tebanner.com/redirect.aspx?pid=6220&bid=2686&lpid=21" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
+                    <a target="_blank"  rel="noopener"target="_blank"  rel="noopener"aria-label="link" href="https://media.tebanner.com/redirect.aspx?pid=6220&bid=2686&lpid=21" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
                     </div>
                     </div>
                 
@@ -3428,7 +3579,7 @@ button {
                     <div class="bahis-sitesi-logosu">
                     <div class="img-wrapper">
 
-                        <a  href="https://siteye.club/redirect/betwinner/"
+                        <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/betwinner/"
                         
                         class="cta-rm-table-2 cta-rm-table">
                         <amp-img data-amp-auto-lightbox-disable  
@@ -3476,7 +3627,7 @@ button {
                     </ul>
                     </div>
                     <div class="cta">
-                    <a aria-label="link" href="https://siteye.club/redirect/betwinner/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
+                    <a target="_blank"  rel="noopener"aria-label="link" href="https://siteye.club/redirect/betwinner/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
                     </div>
                     </div>
                 
@@ -3492,7 +3643,7 @@ button {
                     <div class="bahis-sitesi-logosu">
                     <div class="img-wrapper">
 
-                        <a  href="https://siteye.club/redirect/bahigo/"
+                        <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/bahigo/"
                         
                         class="cta-rm-table-2 cta-rm-table">
                         <amp-img data-amp-auto-lightbox-disable  
@@ -3540,7 +3691,7 @@ button {
                     </ul>
                     </div>
                     <div class="cta">
-                    <a aria-label="link" href="https://siteye.club/redirect/bahigo/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
+                    <a target="_blank"  rel="noopener"aria-label="link" href="https://siteye.club/redirect/bahigo/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
                     </div>
                     </div>
                 
@@ -3556,7 +3707,7 @@ button {
                     <div class="bahis-sitesi-logosu">
                     <div class="img-wrapper">
 
-                        <a  href="https://siteye.club/redirect/superbahis/"
+                        <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/superbahis/"
                         
                         class="cta-rm-table-2 cta-rm-table">
                         <amp-img data-amp-auto-lightbox-disable  
@@ -3604,7 +3755,7 @@ button {
                     </ul>
                     </div>
                     <div class="cta">
-                    <a aria-label="link" href="https://siteye.club/redirect/superbahis/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
+                    <a target="_blank"  rel="noopener"aria-label="link" href="https://siteye.club/redirect/superbahis/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
                     </div>
                     </div>
                 
@@ -3620,7 +3771,7 @@ button {
                     <div class="bahis-sitesi-logosu">
                     <div class="img-wrapper">
 
-                        <a  href="https://siteye.club/redirect/youwin/"
+                        <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/youwin/"
                         
                         class="cta-rm-table-2 cta-rm-table">
                         <amp-img data-amp-auto-lightbox-disable  
@@ -3668,7 +3819,7 @@ button {
                     </ul>
                     </div>
                     <div class="cta">
-                    <a aria-label="link" href="https://siteye.club/redirect/youwin/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
+                    <a target="_blank"  rel="noopener"aria-label="link" href="https://siteye.club/redirect/youwin/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
                     </div>
                     </div>
                 
@@ -3684,7 +3835,7 @@ button {
                     <div class="bahis-sitesi-logosu">
                     <div class="img-wrapper">
 
-                        <a  href="https://siteye.club/redirect/betboo/"
+                        <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/betboo/"
                         
                         class="cta-rm-table-2 cta-rm-table">
                         <amp-img data-amp-auto-lightbox-disable  
@@ -3732,7 +3883,7 @@ button {
                     </ul>
                     </div>
                     <div class="cta">
-                    <a aria-label="link" href="https://siteye.club/redirect/betboo/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
+                    <a target="_blank"  rel="noopener"aria-label="link" href="https://siteye.club/redirect/betboo/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
                     </div>
                     </div>
                 
@@ -3748,7 +3899,7 @@ button {
                     <div class="bahis-sitesi-logosu">
                     <div class="img-wrapper">
 
-                        <a  href="https://siteye.club/redirect/betsat/"
+                        <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/betsat/"
                         
                         class="cta-rm-table-2 cta-rm-table">
                         <amp-img data-amp-auto-lightbox-disable  
@@ -3796,7 +3947,7 @@ button {
                     </ul>
                     </div>
                     <div class="cta">
-                    <a aria-label="link" href="https://siteye.club/redirect/betsat/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
+                    <a target="_blank"  rel="noopener"aria-label="link" href="https://siteye.club/redirect/betsat/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
                     </div>
                     </div>
                 
@@ -3811,7 +3962,7 @@ button {
                     <div class="bahis-sitesi-logosu">
                     <div class="img-wrapper">
 
-                        <a  href="https://siteye.club/redirect/superbetin/"
+                        <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/superbetin/"
                         
                         class="cta-rm-table-2 cta-rm-table">
                         <amp-img data-amp-auto-lightbox-disable  
@@ -3859,7 +4010,7 @@ button {
                     </ul>
                     </div>
                     <div class="cta">
-                    <a aria-label="link" href="https://siteye.club/redirect/superbetin/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
+                    <a target="_blank"  rel="noopener"aria-label="link" href="https://siteye.club/redirect/superbetin/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
                     </div>
                     </div>
                 
@@ -3875,7 +4026,7 @@ button {
                     <div class="bahis-sitesi-logosu">
                     <div class="img-wrapper">
 
-                        <a  href="https://siteye.club/redirect/supertotobet/"
+                        <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/supertotobet/"
                         
                         class="cta-rm-table-2 cta-rm-table">
                         <amp-img data-amp-auto-lightbox-disable  
@@ -3923,7 +4074,7 @@ button {
                     </ul>
                     </div>
                     <div class="cta">
-                    <a aria-label="link" href="https://siteye.club/redirect/supertotobet/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
+                    <a target="_blank"  rel="noopener"aria-label="link" href="https://siteye.club/redirect/supertotobet/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
                     </div>
                     </div>
                 
@@ -3939,7 +4090,7 @@ button {
                     <div class="bahis-sitesi-logosu">
                     <div class="img-wrapper">
 
-                        <a  href="https://siteye.club/redirect/onwin/"
+                        <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/onwin/"
                         
                         class="cta-rm-table-2 cta-rm-table">
                         <amp-img data-amp-auto-lightbox-disable  
@@ -3987,7 +4138,7 @@ button {
                     </ul>
                     </div>
                     <div class="cta">
-                    <a aria-label="link" href="https://siteye.club/redirect/onwin/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
+                    <a target="_blank"  rel="noopener"aria-label="link" href="https://siteye.club/redirect/onwin/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
                     </div>
                     </div>
                 
@@ -4131,7 +4282,7 @@ button {
             <li><strong>Anında Ödeme</strong></li>
             <li><strong>Yüksek Bahis Oranları</strong></li>
         </ul>
-        <a href="https://clbanners12.com/_hpqXK8FyzF-22a5QkwDt8GNd7ZgqdRLk/2/" class="cta-button cta-rm-table-1 cta-rm-table" aria-label="bets10" rel="nofollow">Bets10 Giriş</a>
+        <a target="_blank"  rel="noopener"href="https://clbanners12.com/_hpqXK8FyzF-22a5QkwDt8GNd7ZgqdRLk/2/" class="cta-button cta-rm-table-1 cta-rm-table" aria-label="bets10" rel="nofollow">Bets10 Giriş</a>
   
        
         </div>
@@ -4334,7 +4485,7 @@ button {
                             <div class="bahis-sitesi-logosu">
                             <div class="img-wrapper">
         
-                                <a  href="https://clbanners9.com/_hpqXK8FyzF-8b2dNZ7AUyWNd7ZgqdRLk/2/"
+                                <a target="_blank"  rel="noopener" href="https://clbanners9.com/_hpqXK8FyzF-8b2dNZ7AUyWNd7ZgqdRLk/2/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
                                 <amp-img data-amp-auto-lightbox-disable  
@@ -4384,7 +4535,7 @@ button {
                             </ul>
                             </div>
                             <div class="cta">
-                            <a aria-label="link" href="https://clbanners9.com/_hpqXK8FyzF-8b2dNZ7AUyWNd7ZgqdRLk/2/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
+                            <a target="_blank"  rel="noopener"aria-label="link" href="https://clbanners9.com/_hpqXK8FyzF-8b2dNZ7AUyWNd7ZgqdRLk/2/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
                             </div>
                             </div>
                         
@@ -4400,7 +4551,7 @@ button {
                             <div class="bahis-sitesi-logosu">
                             <div class="img-wrapper">
         
-                                <a  href="https://clbanners6.com/_hpqXK8FyzF-22a5QkwDt8GNd7ZgqdRLk/2/"
+                                <a target="_blank"  rel="noopener" href="https://clbanners6.com/_hpqXK8FyzF-22a5QkwDt8GNd7ZgqdRLk/2/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
                                 <amp-img data-amp-auto-lightbox-disable  
@@ -4447,7 +4598,7 @@ button {
                             </ul>
                             </div>
                             <div class="cta">
-                            <a aria-label="link" href="https://clbanners6.com/_hpqXK8FyzF-22a5QkwDt8GNd7ZgqdRLk/2/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
+                            <a target="_blank"  rel="noopener"aria-label="link" href="https://clbanners6.com/_hpqXK8FyzF-22a5QkwDt8GNd7ZgqdRLk/2/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
                             </div>
                             </div>
                         
@@ -4462,7 +4613,7 @@ button {
                             <div class="bahis-sitesi-logosu">
                             <div class="img-wrapper">
         
-                                <a  href="https://siteye.club/redirect/1xbet/"
+                                <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/1xbet/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
                                 <amp-img data-amp-auto-lightbox-disable  
@@ -4509,7 +4660,7 @@ button {
                             </ul>
                             </div>
                             <div class="cta">
-                            <a aria-label="link" href="https://siteye.club/redirect/1xbet/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
+                            <a target="_blank"  rel="noopener"aria-label="link" href="https://siteye.club/redirect/1xbet/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
                             </div>
                             </div>
                         
@@ -4525,7 +4676,7 @@ button {
                             <div class="bahis-sitesi-logosu">
                             <div class="img-wrapper">
         
-                                <a  href="https://siteye.club/redirect/tipobet365/"
+                                <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/tipobet365/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
                                 <amp-img data-amp-auto-lightbox-disable  
@@ -4573,7 +4724,7 @@ button {
                             </ul>
                             </div>
                             <div class="cta">
-                            <a aria-label="link" href="https://siteye.club/redirect/tipobet365/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
+                            <a target="_blank"  rel="noopener"aria-label="link" href="https://siteye.club/redirect/tipobet365/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
                             </div>
                             </div>
                         
@@ -4589,7 +4740,7 @@ button {
                             <div class="bahis-sitesi-logosu">
                             <div class="img-wrapper">
         
-                                <a  href="https://media.tebanner.com/redirect.aspx?pid=6220&bid=2812"
+                                <a target="_blank"  rel="noopener" href="https://media.tebanner.com/redirect.aspx?pid=6220&bid=2812"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
                                 <amp-img data-amp-auto-lightbox-disable  
@@ -4637,7 +4788,7 @@ button {
                             </ul>
                             </div>
                             <div class="cta">
-                            <a aria-label="link" href="https://media.tebanner.com/redirect.aspx?pid=6220&bid=2812" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
+                            <a target="_blank"  rel="noopener"aria-label="link" href="https://media.tebanner.com/redirect.aspx?pid=6220&bid=2812" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
                             </div>
                             </div>
                         
@@ -4653,7 +4804,7 @@ button {
                             <div class="bahis-sitesi-logosu">
                             <div class="img-wrapper">
         
-                                <a  href="https://media.tebanner.com/redirect.aspx?pid=6220&bid=2686&lpid=21"
+                                <a target="_blank"  rel="noopener" href="https://media.tebanner.com/redirect.aspx?pid=6220&bid=2686&lpid=21"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
                                 <amp-img data-amp-auto-lightbox-disable  
@@ -4701,7 +4852,7 @@ button {
                             </ul>
                             </div>
                             <div class="cta">
-                            <a aria-label="link" href="https://media.tebanner.com/redirect.aspx?pid=6220&bid=2686&lpid=21" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
+                            <a target="_blank"  rel="noopener"aria-label="link" href="https://media.tebanner.com/redirect.aspx?pid=6220&bid=2686&lpid=21" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
                             </div>
                             </div>
                         
@@ -4718,7 +4869,7 @@ button {
                             <div class="bahis-sitesi-logosu">
                             <div class="img-wrapper">
         
-                                <a  href="https://siteye.club/redirect/betwinner/"
+                                <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/betwinner/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
                                 <amp-img data-amp-auto-lightbox-disable  
@@ -4766,7 +4917,7 @@ button {
                             </ul>
                             </div>
                             <div class="cta">
-                            <a aria-label="link" href="https://siteye.club/redirect/betwinner/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
+                            <a target="_blank"  rel="noopener"aria-label="link" href="https://siteye.club/redirect/betwinner/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
                             </div>
                             </div>
                         
@@ -4782,7 +4933,7 @@ button {
                             <div class="bahis-sitesi-logosu">
                             <div class="img-wrapper">
         
-                                <a  href="https://siteye.club/redirect/bahigo/"
+                                <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/bahigo/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
                                 <amp-img data-amp-auto-lightbox-disable  
@@ -4830,7 +4981,7 @@ button {
                             </ul>
                             </div>
                             <div class="cta">
-                            <a aria-label="link" href="https://siteye.club/redirect/bahigo/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
+                            <a target="_blank"  rel="noopener"aria-label="link" href="https://siteye.club/redirect/bahigo/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
                             </div>
                             </div>
                         
@@ -4846,7 +4997,7 @@ button {
                             <div class="bahis-sitesi-logosu">
                             <div class="img-wrapper">
         
-                                <a  href="https://siteye.club/redirect/superbahis/"
+                                <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/superbahis/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
                                 <amp-img data-amp-auto-lightbox-disable  
@@ -4894,7 +5045,7 @@ button {
                             </ul>
                             </div>
                             <div class="cta">
-                            <a aria-label="link" href="https://siteye.club/redirect/superbahis/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
+                            <a target="_blank"  rel="noopener"aria-label="link" href="https://siteye.club/redirect/superbahis/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
                             </div>
                             </div>
                         
@@ -4910,7 +5061,7 @@ button {
                             <div class="bahis-sitesi-logosu">
                             <div class="img-wrapper">
         
-                                <a  href="https://siteye.club/redirect/youwin/"
+                                <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/youwin/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
                                 <amp-img data-amp-auto-lightbox-disable  
@@ -4958,7 +5109,7 @@ button {
                             </ul>
                             </div>
                             <div class="cta">
-                            <a aria-label="link" href="https://siteye.club/redirect/youwin/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
+                            <a target="_blank"  rel="noopener"aria-label="link" href="https://siteye.club/redirect/youwin/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
                             </div>
                             </div>
                         
@@ -4974,7 +5125,7 @@ button {
                             <div class="bahis-sitesi-logosu">
                             <div class="img-wrapper">
         
-                                <a  href="https://siteye.club/redirect/betboo/"
+                                <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/betboo/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
                                 <amp-img data-amp-auto-lightbox-disable  
@@ -5022,7 +5173,7 @@ button {
                             </ul>
                             </div>
                             <div class="cta">
-                            <a aria-label="link" href="https://siteye.club/redirect/betboo/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
+                            <a target="_blank"  rel="noopener"aria-label="link" href="https://siteye.club/redirect/betboo/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
                             </div>
                             </div>
                         
@@ -5038,7 +5189,7 @@ button {
                             <div class="bahis-sitesi-logosu">
                             <div class="img-wrapper">
         
-                                <a  href="https://siteye.club/redirect/betsat/"
+                                <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/betsat/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
                                 <amp-img data-amp-auto-lightbox-disable  
@@ -5086,7 +5237,7 @@ button {
                             </ul>
                             </div>
                             <div class="cta">
-                            <a aria-label="link" href="https://siteye.club/redirect/betsat/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
+                            <a target="_blank"  rel="noopener"aria-label="link" href="https://siteye.club/redirect/betsat/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
                             </div>
                             </div>
                         
@@ -5101,7 +5252,7 @@ button {
                             <div class="bahis-sitesi-logosu">
                             <div class="img-wrapper">
         
-                                <a  href="https://siteye.club/redirect/superbetin/"
+                                <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/superbetin/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
                                 <amp-img data-amp-auto-lightbox-disable  
@@ -5149,7 +5300,7 @@ button {
                             </ul>
                             </div>
                             <div class="cta">
-                            <a aria-label="link" href="https://siteye.club/redirect/superbetin/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
+                            <a target="_blank"  rel="noopener"aria-label="link" href="https://siteye.club/redirect/superbetin/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
                             </div>
                             </div>
                         
@@ -5165,7 +5316,7 @@ button {
                             <div class="bahis-sitesi-logosu">
                             <div class="img-wrapper">
         
-                                <a  href="https://siteye.club/redirect/supertotobet/"
+                                <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/supertotobet/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
                                 <amp-img data-amp-auto-lightbox-disable  
@@ -5213,7 +5364,7 @@ button {
                             </ul>
                             </div>
                             <div class="cta">
-                            <a aria-label="link" href="https://siteye.club/redirect/supertotobet/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
+                            <a target="_blank"  rel="noopener"aria-label="link" href="https://siteye.club/redirect/supertotobet/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
                             </div>
                             </div>
                         
@@ -5229,7 +5380,7 @@ button {
                             <div class="bahis-sitesi-logosu">
                             <div class="img-wrapper">
         
-                                <a  href="https://siteye.club/redirect/onwin/"
+                                <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/onwin/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
                                 <amp-img data-amp-auto-lightbox-disable  
@@ -5277,7 +5428,7 @@ button {
                             </ul>
                             </div>
                             <div class="cta">
-                            <a aria-label="link" href="https://siteye.club/redirect/onwin/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
+                            <a target="_blank"  rel="noopener"aria-label="link" href="https://siteye.club/redirect/onwin/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
                             </div>
                             </div>
                         
@@ -5410,7 +5561,7 @@ button {
             <li><strong>Canlı Maç Yayını</strong></li>
             <li><strong>Hızlı para çekme ve yatırma </strong></li>
         </ul>
-        <a href="https://clbanners9.com/_hpqXK8FyzF-8b2dNZ7AUyWNd7ZgqdRLk/2/" class="cta-button cta-rm-table-1 cta-rm-table" aria-label="mobilbahis" rel="nofollow">Mobilbahis Giriş</a>
+        <a target="_blank"  rel="noopener"href="https://clbanners9.com/_hpqXK8FyzF-8b2dNZ7AUyWNd7ZgqdRLk/2/" class="cta-button cta-rm-table-1 cta-rm-table" aria-label="mobilbahis" rel="nofollow">Mobilbahis Giriş</a>
   
        
         </div>
@@ -5578,7 +5729,7 @@ button {
             <li><strong>Canlı Maç Yayını</strong></li>
             <li><strong>Hızlı para çekme ve yatırma </strong></li>
         </ul>
-        <a href="https://clbanners12.com/_hpqXK8FyzF-22a5QkwDt8GNd7ZgqdRLk/2/" class="cta-button cta-rm-table-1 cta-rm-table" aria-label="bets10" rel="nofollow">Bets10 Giriş</a>
+        <a target="_blank"  rel="noopener"href="https://clbanners12.com/_hpqXK8FyzF-22a5QkwDt8GNd7ZgqdRLk/2/" class="cta-button cta-rm-table-1 cta-rm-table" aria-label="bets10" rel="nofollow">Bets10 Giriş</a>
   
        
         </div>
@@ -5652,7 +5803,7 @@ button {
                             <div class="bahis-sitesi-logosu">
                             <div class="img-wrapper">
         
-                                <a  href="https://clbanners9.com/_hpqXK8FyzF-8b2dNZ7AUyWNd7ZgqdRLk/2/"
+                                <a target="_blank"  rel="noopener" href="https://clbanners9.com/_hpqXK8FyzF-8b2dNZ7AUyWNd7ZgqdRLk/2/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
                                 <amp-img data-amp-auto-lightbox-disable  
@@ -5702,7 +5853,7 @@ button {
                             </ul>
                             </div>
                             <div class="cta">
-                            <a aria-label="link" href="https://clbanners9.com/_hpqXK8FyzF-8b2dNZ7AUyWNd7ZgqdRLk/2/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
+                            <a target="_blank"  rel="noopener"aria-label="link" href="https://clbanners9.com/_hpqXK8FyzF-8b2dNZ7AUyWNd7ZgqdRLk/2/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
                             </div>
                             </div>
                         
@@ -5718,7 +5869,7 @@ button {
                             <div class="bahis-sitesi-logosu">
                             <div class="img-wrapper">
         
-                                <a  href="https://clbanners6.com/_hpqXK8FyzF-22a5QkwDt8GNd7ZgqdRLk/2/"
+                                <a target="_blank"  rel="noopener" href="https://clbanners6.com/_hpqXK8FyzF-22a5QkwDt8GNd7ZgqdRLk/2/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
                                 <amp-img data-amp-auto-lightbox-disable  
@@ -5765,7 +5916,7 @@ button {
                             </ul>
                             </div>
                             <div class="cta">
-                            <a aria-label="link" href="https://clbanners6.com/_hpqXK8FyzF-22a5QkwDt8GNd7ZgqdRLk/2/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
+                            <a target="_blank"  rel="noopener"aria-label="link" href="https://clbanners6.com/_hpqXK8FyzF-22a5QkwDt8GNd7ZgqdRLk/2/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
                             </div>
                             </div>
                         
@@ -5780,7 +5931,7 @@ button {
                             <div class="bahis-sitesi-logosu">
                             <div class="img-wrapper">
         
-                                <a  href="https://siteye.club/redirect/1xbet/"
+                                <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/1xbet/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
                                 <amp-img data-amp-auto-lightbox-disable  
@@ -5827,7 +5978,7 @@ button {
                             </ul>
                             </div>
                             <div class="cta">
-                            <a aria-label="link" href="https://siteye.club/redirect/1xbet/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
+                            <a target="_blank"  rel="noopener"aria-label="link" href="https://siteye.club/redirect/1xbet/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
                             </div>
                             </div>
                         
@@ -5843,7 +5994,7 @@ button {
                             <div class="bahis-sitesi-logosu">
                             <div class="img-wrapper">
         
-                                <a  href="https://siteye.club/redirect/tipobet365/"
+                                <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/tipobet365/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
                                 <amp-img data-amp-auto-lightbox-disable  
@@ -5891,7 +6042,7 @@ button {
                             </ul>
                             </div>
                             <div class="cta">
-                            <a aria-label="link" href="https://siteye.club/redirect/tipobet365/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
+                            <a target="_blank"  rel="noopener"aria-label="link" href="https://siteye.club/redirect/tipobet365/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
                             </div>
                             </div>
                         
@@ -5907,7 +6058,7 @@ button {
                             <div class="bahis-sitesi-logosu">
                             <div class="img-wrapper">
         
-                                <a  href="https://media.tebanner.com/redirect.aspx?pid=6220&bid=2812"
+                                <a target="_blank"  rel="noopener" href="https://media.tebanner.com/redirect.aspx?pid=6220&bid=2812"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
                                 <amp-img data-amp-auto-lightbox-disable  
@@ -5955,7 +6106,7 @@ button {
                             </ul>
                             </div>
                             <div class="cta">
-                            <a aria-label="link" href="https://media.tebanner.com/redirect.aspx?pid=6220&bid=2812" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
+                            <a target="_blank"  rel="noopener"aria-label="link" href="https://media.tebanner.com/redirect.aspx?pid=6220&bid=2812" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
                             </div>
                             </div>
                         
@@ -5971,7 +6122,7 @@ button {
                             <div class="bahis-sitesi-logosu">
                             <div class="img-wrapper">
         
-                                <a  href="https://media.tebanner.com/redirect.aspx?pid=6220&bid=2686&lpid=21"
+                                <a target="_blank"  rel="noopener" href="https://media.tebanner.com/redirect.aspx?pid=6220&bid=2686&lpid=21"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
                                 <amp-img data-amp-auto-lightbox-disable  
@@ -6019,7 +6170,7 @@ button {
                             </ul>
                             </div>
                             <div class="cta">
-                            <a aria-label="link" href="https://media.tebanner.com/redirect.aspx?pid=6220&bid=2686&lpid=21" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
+                            <a target="_blank"  rel="noopener"aria-label="link" href="https://media.tebanner.com/redirect.aspx?pid=6220&bid=2686&lpid=21" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
                             </div>
                             </div>
                         
@@ -6036,7 +6187,7 @@ button {
                             <div class="bahis-sitesi-logosu">
                             <div class="img-wrapper">
         
-                                <a  href="https://siteye.club/redirect/betwinner/"
+                                <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/betwinner/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
                                 <amp-img data-amp-auto-lightbox-disable  
@@ -6084,7 +6235,7 @@ button {
                             </ul>
                             </div>
                             <div class="cta">
-                            <a aria-label="link" href="https://siteye.club/redirect/betwinner/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
+                            <a target="_blank"  rel="noopener"aria-label="link" href="https://siteye.club/redirect/betwinner/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
                             </div>
                             </div>
                         
@@ -6100,7 +6251,7 @@ button {
                             <div class="bahis-sitesi-logosu">
                             <div class="img-wrapper">
         
-                                <a  href="https://siteye.club/redirect/bahigo/"
+                                <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/bahigo/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
                                 <amp-img data-amp-auto-lightbox-disable  
@@ -6148,7 +6299,7 @@ button {
                             </ul>
                             </div>
                             <div class="cta">
-                            <a aria-label="link" href="https://siteye.club/redirect/bahigo/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
+                            <a target="_blank"  rel="noopener"aria-label="link" href="https://siteye.club/redirect/bahigo/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
                             </div>
                             </div>
                         
@@ -6164,7 +6315,7 @@ button {
                             <div class="bahis-sitesi-logosu">
                             <div class="img-wrapper">
         
-                                <a  href="https://siteye.club/redirect/superbahis/"
+                                <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/superbahis/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
                                 <amp-img data-amp-auto-lightbox-disable  
@@ -6212,7 +6363,7 @@ button {
                             </ul>
                             </div>
                             <div class="cta">
-                            <a aria-label="link" href="https://siteye.club/redirect/superbahis/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
+                            <a target="_blank"  rel="noopener"aria-label="link" href="https://siteye.club/redirect/superbahis/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
                             </div>
                             </div>
                         
@@ -6228,7 +6379,7 @@ button {
                             <div class="bahis-sitesi-logosu">
                             <div class="img-wrapper">
         
-                                <a  href="https://siteye.club/redirect/youwin/"
+                                <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/youwin/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
                                 <amp-img data-amp-auto-lightbox-disable  
@@ -6276,7 +6427,7 @@ button {
                             </ul>
                             </div>
                             <div class="cta">
-                            <a aria-label="link" href="https://siteye.club/redirect/youwin/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
+                            <a target="_blank"  rel="noopener"aria-label="link" href="https://siteye.club/redirect/youwin/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
                             </div>
                             </div>
                         
@@ -6292,7 +6443,7 @@ button {
                             <div class="bahis-sitesi-logosu">
                             <div class="img-wrapper">
         
-                                <a  href="https://siteye.club/redirect/betboo/"
+                                <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/betboo/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
                                 <amp-img data-amp-auto-lightbox-disable  
@@ -6340,7 +6491,7 @@ button {
                             </ul>
                             </div>
                             <div class="cta">
-                            <a aria-label="link" href="https://siteye.club/redirect/betboo/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
+                            <a target="_blank"  rel="noopener"aria-label="link" href="https://siteye.club/redirect/betboo/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
                             </div>
                             </div>
                         
@@ -6356,7 +6507,7 @@ button {
                             <div class="bahis-sitesi-logosu">
                             <div class="img-wrapper">
         
-                                <a  href="https://siteye.club/redirect/betsat/"
+                                <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/betsat/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
                                 <amp-img data-amp-auto-lightbox-disable  
@@ -6404,7 +6555,7 @@ button {
                             </ul>
                             </div>
                             <div class="cta">
-                            <a aria-label="link" href="https://siteye.club/redirect/betsat/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
+                            <a target="_blank"  rel="noopener"aria-label="link" href="https://siteye.club/redirect/betsat/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
                             </div>
                             </div>
                         
@@ -6419,7 +6570,7 @@ button {
                             <div class="bahis-sitesi-logosu">
                             <div class="img-wrapper">
         
-                                <a  href="https://siteye.club/redirect/superbetin/"
+                                <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/superbetin/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
                                 <amp-img data-amp-auto-lightbox-disable  
@@ -6467,7 +6618,7 @@ button {
                             </ul>
                             </div>
                             <div class="cta">
-                            <a aria-label="link" href="https://siteye.club/redirect/superbetin/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
+                            <a target="_blank"  rel="noopener"aria-label="link" href="https://siteye.club/redirect/superbetin/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
                             </div>
                             </div>
                         
@@ -6483,7 +6634,7 @@ button {
                             <div class="bahis-sitesi-logosu">
                             <div class="img-wrapper">
         
-                                <a  href="https://siteye.club/redirect/supertotobet/"
+                                <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/supertotobet/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
                                 <amp-img data-amp-auto-lightbox-disable  
@@ -6531,7 +6682,7 @@ button {
                             </ul>
                             </div>
                             <div class="cta">
-                            <a aria-label="link" href="https://siteye.club/redirect/supertotobet/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
+                            <a target="_blank"  rel="noopener"aria-label="link" href="https://siteye.club/redirect/supertotobet/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
                             </div>
                             </div>
                         
@@ -6547,7 +6698,7 @@ button {
                             <div class="bahis-sitesi-logosu">
                             <div class="img-wrapper">
         
-                                <a  href="https://siteye.club/redirect/onwin/"
+                                <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/onwin/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
                                 <amp-img data-amp-auto-lightbox-disable  
@@ -6595,7 +6746,7 @@ button {
                             </ul>
                             </div>
                             <div class="cta">
-                            <a aria-label="link" href="https://siteye.club/redirect/onwin/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
+                            <a target="_blank"  rel="noopener"aria-label="link" href="https://siteye.club/redirect/onwin/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
                             </div>
                             </div>
                         
@@ -6606,6 +6757,15 @@ button {
                 </section>
            </div>
         
+
+
+
+
+
+
+
+
+
 
        <!-- bets10-review-tip-2 -->
        <section class="bets10-review v3-table" >
@@ -6689,7 +6849,7 @@ button {
             <li><strong>Bonusu sen seç</strong></li>
             <li><strong>5000TL</strong></li>
         </ul>
-        <a href="https://clbanners12.com/_hpqXK8FyzF-22a5QkwDt8GNd7ZgqdRLk/2/" class="cta-button cta-rm-table-1 cta-rm-table" aria-label="bets10" rel="nofollow">Bets10 Giriş</a>
+        <a target="_blank"  rel="noopener"href="https://clbanners12.com/_hpqXK8FyzF-22a5QkwDt8GNd7ZgqdRLk/2/" class="cta-button cta-rm-table-1 cta-rm-table" aria-label="bets10" rel="nofollow">Bets10 Giriş</a>
   
        
         </div>
@@ -6700,7 +6860,533 @@ button {
         </div>
         </section>
 
-            <!--hosgeldin-bonusu-veren-bahis-siteleri-->
+            
+        
+
+       <!-- jetbahis-review-tip-2 -->
+       <section class="jetbahis-review v3-table" >
+        <div class="grid-container" id="jetbahis-review-tip-2">
+       
+        <div id="number-one" class="box ozel-bahis-sitesi ">
+        <div class="box-content">
+        <div class="ribbon-wrap">
+        <div class="rib"><span>#2 en iyi bahis sitesi</span></div>
+        <div class="ribbon-edge-bottomright"></div>
+        </div>
+        <div class="box-holder">
+        <div class="preview">
+        <div class="photo" style="text-align: center;">
+            <amp-img data-amp-auto-lightbox-disable  src="assets/img/bet-companies/jetbahis_logo.webp"  alt="jetbahis"   class="mauto hide-on-m"  
+            width="134" height="74"></amp-img>
+
+            <amp-img data-amp-auto-lightbox-disable  src="assets/img/bet-companies/jetbahis_logo.webp"  alt="jetbahis"   class="mauto hide-on-d"  
+            width="134" height="74"></amp-img>
+        <div class="shadow"></div>
+        </div>
+        
+        <div class="iconsrm clearfix hide-on-m">
+        <strong>Ödeme Yöntemleri</strong>
+        <div class="image-wrapper banking-methods">
+            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/jetbahis/jetbahis-aninda-odeme.webp"  alt="jetbahis-aninda-odeme"   class="deposit-icons2"   width="50" height="30" ></amp-img>
+            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/jetbahis/jetbahis-jet.webp"  alt="jetbahis-jet"   class="deposit-icons2"   width="50" height="30" ></amp-img>
+            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/jetbahis/jetbahis-jeton.webp"  alt="jetbahis-jeton"   class="deposit-icons2"   width="50" height="30" ></amp-img>
+            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/jetbahis/jetbahis-papara.webp"  alt="jetbahis-papara"   class="deposit-icons2"   width="50" height="30" ></amp-img>
+            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/jetbahis/jetbahis-mastercard.webp"  alt="jetbahis-mastercard"   class="deposit-icons2"   width="50" height="30" ></amp-img>
+            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/jetbahis/jetbahis-visa.webp"  alt="jetbahis-visa"   class="deposit-icons2"   width="50" height="30" ></amp-img>
+
+        </div>
+        </div>
+        <div class="iconsrm  clearfix hide-on-m ">
+        <strong>İşletim Sistemleri</strong>
+        <div class="image-wrapper">
+
+            <amp-img data-amp-auto-lightbox-disable  src="assets/img/apple.webp"  alt="apple"   class="deposit-icons2"   width="50" height="30" ></amp-img>
+            <amp-img data-amp-auto-lightbox-disable  src="assets/img/win.webp"  alt="win"   class="deposit-icons2"   width="50" height="30" ></amp-img>
+            <amp-img data-amp-auto-lightbox-disable  src="assets/img/android.webp"  alt="android"   class="deposit-icons2"   width="50" height="30" ></amp-img>
+
+        </div>
+        </div>
+        <div class="rating-container">
+        <strong>Rating:</strong>
+        
+        <div class=" yildiz-detay">
+            <table>
+            <tbody>
+            <tr class="oran">
+            <td><i class="deger50"><span>5.0 / 5.0</span></i></td>
+            </tr>
+            </tbody>
+            </table>
+     
+        </div>        
+        </span>
+        </div>
+        </div>
+        <div class="box-frame">
+        <div class="text">
+        <h3 class="title">Jetbahis Oyun Seçenekleri       </h3>
+        <p>
+            Hem futbol ve basketbol gibi spor bahis seçeneklerine, hem de çok sayıda güvenilir kumarhane oyunlarına sahip olan jetbahis firması, dünyanın en yüksek oranlarda deneme bonusu veren firmaları içerisinde yer almaktadır. Güvenilir oyunlarının yanında üyelerine, her oyun oynamaları sonucunda spin özel bonusu vermektedir. Spor karşılaşmalarına tek veya handikaplı olarak iki maç üzerinden iddaa yaparsanız, %100 oranında bonus kazanabilirsiniz. 
+
+
+        </p>
+        <p>
+
+            Üye olmanız halinde de %100 oranında hoşgeldin üyelik bonusunu, jetbahis sitesi yönetimden çevrimsiz olarak alabilirsiniz. Jetbahis oyun seçenekleri içerisinde yer alan sanal oyunlar da üyelerin bonus kazanmasını sağlayan bahis seçenekleridir.
+
+        </p>
+           
+        <p>      
+            
+            At yarışları ve alternatif spor bahisleri de site yönetiminin üyelerine bonus kazanmaları için sunduğu oyunlardır. Tenis, masa tenisi, bilardo, yüzme, golf, bisiklet yarışı ve güreş gibi çok sayıda sanal ve canlı spor bahislerine de iddaa oynayarak para kazanabilirsiniz. Siz de sitenin tüm spor bahislerini detaylı şekilde görmek isterseniz, hemen güncel giriş linki üzerinden siteye erişim sağlayın ve ücretsiz üye olun.
+
+        </p>      
+        
+        <ul class="styled-list">
+            <li><strong>Güvenilir Bahis Sitesi</strong></li>
+            <li><strong>1000 TL</strong></li>
+            <li><strong>%100 Bonus</strong></li>
+        </ul>
+        <a target="_blank"  rel="noopener"href="https://media.tebanner.com/redirect.aspx?pid=6220&bid=2686&lpid=21" class="cta-button cta-rm-table-1 cta-rm-table" aria-label="jetbahis" rel="nofollow">Jetbahis Giriş</a>
+  
+       
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </section>
+       
+        
+        
+        
+       <!-- mobilbahis-review-tip-2 -->
+       <section class="mobilbahis-review v3-table" >
+        <div class="grid-container" id="mobilbahis-review-tip-2">
+       
+        <div id="number-one" class="box ozel-bahis-sitesi ">
+        <div class="box-content">
+        <div class="ribbon-wrap">
+        <div class="rib"><span>#3 en iyi bahis sitesi</span></div>
+        <div class="ribbon-edge-bottomright"></div>
+        </div>
+        <div class="box-holder">
+        <div class="preview">
+        <div class="photo" style="text-align: center;">
+            <amp-img data-amp-auto-lightbox-disable  src="assets/img/bet-companies/mobilbahis_logo.webp"  alt="mobilbahis"   class="mauto hide-on-m"  
+            width="134" height="74"></amp-img>
+
+            <amp-img data-amp-auto-lightbox-disable  src="assets/img/bet-companies/mobilbahis_logo.webp"  alt="mobilbahis"   class="mauto hide-on-d"  
+            width="134" height="74"></amp-img>
+        <div class="shadow"></div>
+        </div>
+        
+        <div class="iconsrm clearfix hide-on-m">
+        <strong>Ödeme Yöntemleri</strong>
+        <div class="image-wrapper banking-methods">
+            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/mobilbahis/mobilbahis-aninda-odeme.webp"  alt="mobilbahis-aninda-odeme"   class="deposit-icons2"   width="50" height="30" ></amp-img>
+            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/mobilbahis/mobilbahis-jeton.webp"  alt="mobilbahis-jeton"   class="deposit-icons2"   width="50" height="30" ></amp-img>
+            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/mobilbahis/mobilbahis-paykwik.webp"  alt="mobilbahis-paykwik"   class="deposit-icons2"   width="50" height="30" ></amp-img>
+            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/mobilbahis/mobilbahis-papara.webp"  alt="mobilbahis-papara"   class="deposit-icons2"   width="50" height="30" ></amp-img>
+            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/mobilbahis/mobilbahis-mastercard.webp"  alt="mobilbahis-mastercard"   class="deposit-icons2"   width="50" height="30" ></amp-img>
+            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/mobilbahis/mobilbahis-visa.webp"  alt="mobilbahis-visa"   class="deposit-icons2"   width="50" height="30" ></amp-img>
+
+        </div>
+        </div>
+        <div class="iconsrm  clearfix hide-on-m ">
+        <strong>İşletim Sistemleri</strong>
+        <div class="image-wrapper">
+
+            <amp-img data-amp-auto-lightbox-disable  src="assets/img/apple.webp"  alt="apple"   class="deposit-icons2"   width="50" height="30" ></amp-img>
+            <amp-img data-amp-auto-lightbox-disable  src="assets/img/win.webp"  alt="win"   class="deposit-icons2"   width="50" height="30" ></amp-img>
+            <amp-img data-amp-auto-lightbox-disable  src="assets/img/android.webp"  alt="android"   class="deposit-icons2"   width="50" height="30" ></amp-img>
+
+        </div>
+        </div>
+        <div class="rating-container">
+        <strong>Rating:</strong>
+        
+        <div class=" yildiz-detay">
+            <table>
+            <tbody>
+            <tr class="oran">
+            <td><i class="deger50"><span>5.0 / 5.0</span></i></td>
+            </tr>
+            </tbody>
+            </table>
+     
+        </div>        
+        </span>
+        </div>
+        </div>
+        <div class="box-frame">
+        <div class="text">
+        <h3 class="title">Mobilbahis Canlı Futbol Maçları    </h3>
+        <p>
+            Avrupa bahis şirketleri içerisinde yer alan ve ülkemizde üyelerine lisanslı olarak iddaa oynatan mobilbahis firması, üyelerine canlı futbol maçları ile çok paralar kazandırmaktadır. Mobilbahis canlı futbol maçları aynı zamanda bahis yapmanız halinde sizlere bonus kazandırmaktadır. En yüksek oranlarda üyelerine futbol maçları ile deneme bonusu veren mobilbahis firması, canlı futbol maçlarını da sizlere ücretsiz şekilde sunmaktadır. 
+        </p>
+        <p>
+            İstediğiniz futbol takımının maçına tek maç üzerinden iddaa oynayarak, bahis oynadığınız maçı site içerisinden canlı takip edebilirsiniz. Bu şekilde bahis oynadığınız maç istatistiklerini görme şansına sahip olup, bir daha hangi maça iddaa oynamanız konusunda daha da bilinçlenmiş olursunuz. 
+        </p>
+           
+        <p>      
+            Mobilbahis bahis sitesi içerisinde İtalya Seri A ve İngiltere Premier Ligi gibi üst düzey futbol ligi maçları bulunmaktadır. Aynı zamanda site içerisinden üç büyüklerin maçlarına da yüksek rakamlar ile tek maç üzerinden canlı iddaa yapabilir ve risksiz şekilde, oturduğunuz yerden para kazanabilirsiniz. Eğer tek maç üzerinden canlı futbol maçına iddaa yaparsanız, yatırmış olduğunuz paranın belirli oranını da bonus olarak kazanmış olacaksınız. 
+        </p>    
+        
+        <p>      
+            İspanya La Liga, Almanya Bundesliga ve Fransa Lig 1 gibi lejyoner futbol ligi maçlarını da mobilbahis içerisinden siteye üye olduktan sonra, iddaa oynamak için tercih edebilirsiniz. Maçları canlı izlemek için herhangi bir üyelik olmamakla beraber, para vermenize de gerek yoktur. Sadece normal giriş adresi üzerinden üyelik oluşturmanız, tüm maçları hd görüntüsünde izlemenizi sağlayacaktır.
+        </p>      
+        
+        <ul class="styled-list">
+            <li><strong>En Geniş Ödeme Seçenekleri</strong></li>
+            <li><strong>Canlı Maç Yayınları</strong></li>
+            <li><strong>1000 TL</strong></li>
+            <li><strong>%200 Bonus</strong></li>
+        </ul>
+        <a target="_blank"  rel="noopener"href="https://clbanners9.com/_hpqXK8FyzF-8b2dNZ7AUyWNd7ZgqdRLk/2/" class="cta-button cta-rm-table-1 cta-rm-table" aria-label="mobilbahis" rel="nofollow">Mobilbahis Giriş</a>
+  
+       
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </section>
+
+
+        
+        
+        
+               <!-- tipobet365-review-tip-2 -->
+       <section class="tipobet365-review v3-table" >
+        <div class="grid-container" id="tipobet365-review-tip-2">
+       
+        <div id="number-one" class="box ozel-bahis-sitesi ">
+        <div class="box-content">
+        <div class="ribbon-wrap">
+        <div class="rib"><span>#4 en iyi bahis sitesi</span></div>
+        <div class="ribbon-edge-bottomright"></div>
+        </div>
+        <div class="box-holder">
+        <div class="preview">
+        <div class="photo" style="text-align: center;">
+            <amp-img data-amp-auto-lightbox-disable  src="assets/img/bet-companies/tipobet365_logo.webp"  alt="tipobet365"   class="mauto hide-on-m"  
+            width="134" height="74"></amp-img>
+
+            <amp-img data-amp-auto-lightbox-disable  src="assets/img/bet-companies/tipobet365_logo.webp"  alt="tipobet365"   class="mauto hide-on-d"  
+            width="134" height="74"></amp-img>
+        <div class="shadow"></div>
+        </div>
+        
+        <div class="iconsrm clearfix hide-on-m">
+        <strong>Ödeme Yöntemleri</strong>
+        <div class="image-wrapper banking-methods">
+            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/tipobet365/tipobet365-aninda-odeme.webp"  alt="tipobet365-aninda-odeme"   class="deposit-icons2"   width="50" height="30" ></amp-img>
+            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/tipobet365/tipobet365-jeton.webp"  alt="tipobet365-jeton"   class="deposit-icons2"   width="50" height="30" ></amp-img>
+            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/tipobet365/tipobet365-bitcoin.webp"  alt="tipobet365-bitcoin"   class="deposit-icons2"   width="50" height="30" ></amp-img>
+            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/tipobet365/tipobet365-papara.webp"  alt="tipobet365-papara"   class="deposit-icons2"   width="50" height="30" ></amp-img>
+            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/tipobet365/tipobet365-mastercard.webp"  alt="tipobet365-mastercard"   class="deposit-icons2"   width="50" height="30" ></amp-img>
+            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/tipobet365/tipobet365-visa.webp"  alt="tipobet365-visa"   class="deposit-icons2"   width="50" height="30" ></amp-img>
+
+        </div>
+        </div>
+        <div class="iconsrm  clearfix hide-on-m ">
+        <strong>İşletim Sistemleri</strong>
+        <div class="image-wrapper">
+
+            <amp-img data-amp-auto-lightbox-disable  src="assets/img/apple.webp"  alt="apple"   class="deposit-icons2"   width="50" height="30" ></amp-img>
+            <amp-img data-amp-auto-lightbox-disable  src="assets/img/win.webp"  alt="win"   class="deposit-icons2"   width="50" height="30" ></amp-img>
+            <amp-img data-amp-auto-lightbox-disable  src="assets/img/android.webp"  alt="android"   class="deposit-icons2"   width="50" height="30" ></amp-img>
+
+        </div>
+        </div>
+        <div class="rating-container">
+        <strong>Rating:</strong>
+        
+        <div class=" yildiz-detay">
+            <table>
+            <tbody>
+            <tr class="oran">
+            <td><i class="deger50"><span>5.0 / 5.0</span></i></td>
+            </tr>
+            </tbody>
+            </table>
+     
+        </div>        
+        </span>
+        </div>
+        </div>
+        <div class="box-frame">
+        <div class="text">
+        <h3 class="title">Tipobet Para Yatırma Bonusları
+        </h3>
+        <p>
+            Yüksek oranlı deneme bonusları dışında iddaacılara para yatırma bonusları da veren tipobet firması, ülkemizde en çok futbol maçına sahip olan sitedir. Spor bahisleri içerisinde yer alan futbol ve basketbol müsabakaları dışında sitenin, canlı casino oyunları da bulunmaktadır. Spor bahisleri ağırlıklı olarak iddaa hizmeti sunan tipobet firması, üyelerinin hesaplarına para yatırmaları için değişik yöntemler sunmaktadır. 
+        </p>
+        <p>
+            Bu yatırım yöntemleri ise ilk yatırım sonrası sizlere bonus kazandırırken, ikinci para yatırmanız da para yatırma bonusu vermektedir. Banka havalesi ve nakit para yatırma seçenekleri sizlere 100 tl bonus verirken, papara hesabınız ile de 7/24 yatırım yapabilir ve yüksek oranda bonus kazanabilirsiniz.
+
+        </p>
+           
+        <p>      
+            Kredi kartı ile hesabınıza tek çekim olarak yatırım yapmanız, 200 tl bedava bonus kazanmanızı sağlayacaktır. Tipobet para yatırma bonusları içerisinde yer alan bitcoin ise, son zamanlarda üyelerin en çok bahis oynamak için hesaplarına yatırım yaptıkları para yatırma yöntemleri arasında yer almaktadır.
+
+        </p>    
+        
+        <p>      
+            Dilerseniz bu işlemi mobil cihazlarınız veya masaüstü bilgisayarlarınızdan da gerçekleştirerek, para yatırma bonusu kazanabilirsiniz. Cepbank para transferi ve astropay yatırma seçeneği de sizlere, 50 tl nakit yatırım bonusu vermektedir. Hesabınıza oyun oynamak için QR kodu veya Jeton işlemi ile de günlük limit doğrultusunda yatırım yapabilir ve ücretsiz oyun oynayabileceğiniz bonus kazanabilirsiniz.
+
+        </p>      
+        
+        <ul class="styled-list">
+            <li><strong>Güvenilir Bahis Sitesi</strong></li>
+            <li><strong>1365 TL</strong></li>
+            <li><strong>%100 Bonus</strong></li>
+        </ul>
+        <a target="_blank"  rel="noopener"href="https://siteye.club/yonleniyor/tipobet365/" class="cta-button cta-rm-table-1 cta-rm-table" aria-label="tipobet365" rel="nofollow">Tipobet365 Giriş</a>
+  
+       
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </section>
+
+
+
+               <!-- supertotobet-review-tip-2 -->
+       <section class="supertotobet-review v3-table" >
+        <div class="grid-container" id="supertotobet-review-tip-2">
+       
+        <div id="number-one" class="box ozel-bahis-sitesi ">
+        <div class="box-content">
+        <div class="ribbon-wrap">
+        <div class="rib"><span>#5 en iyi bahis sitesi</span></div>
+        <div class="ribbon-edge-bottomright"></div>
+        </div>
+        <div class="box-holder">
+        <div class="preview">
+        <div class="photo" style="text-align: center;">
+            <amp-img data-amp-auto-lightbox-disable  src="assets/img/bet-companies/supertotobet_logo.webp"  alt="supertotobet"   class="mauto hide-on-m"  
+            width="134" height="74"></amp-img>
+
+            <amp-img data-amp-auto-lightbox-disable  src="assets/img/bet-companies/supertotobet_logo.webp"  alt="supertotobet"   class="mauto hide-on-d"  
+            width="134" height="74"></amp-img>
+        <div class="shadow"></div>
+        </div>
+        
+        <div class="iconsrm clearfix hide-on-m">
+        <strong>Ödeme Yöntemleri</strong>
+        <div class="image-wrapper banking-methods">
+            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/supertotobet/supertotobet-aninda-odeme.webp"  alt="supertotobet-aninda-odeme"   class="deposit-icons2"   width="50" height="30" ></amp-img>
+            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/supertotobet/supertotobet-jeton.webp"  alt="supertotobet-jeton"   class="deposit-icons2"   width="50" height="30" ></amp-img>
+            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/supertotobet/supertotobet-bitcoin.webp"  alt="supertotobet-bitcoin"   class="deposit-icons2"   width="50" height="30" ></amp-img>
+            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/supertotobet/supertotobet-papara.webp"  alt="supertotobet-papara"   class="deposit-icons2"   width="50" height="30" ></amp-img>
+            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/supertotobet/supertotobet-mastercard.webp"  alt="supertotobet-mastercard"   class="deposit-icons2"   width="50" height="30" ></amp-img>
+            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/supertotobet/supertotobet-visa.webp"  alt="supertotobet-visa"   class="deposit-icons2"   width="50" height="30" ></amp-img>
+
+        </div>
+        </div>
+        <div class="iconsrm  clearfix hide-on-m ">
+        <strong>İşletim Sistemleri</strong>
+        <div class="image-wrapper">
+
+            <amp-img data-amp-auto-lightbox-disable  src="assets/img/apple.webp"  alt="apple"   class="deposit-icons2"   width="50" height="30" ></amp-img>
+            <amp-img data-amp-auto-lightbox-disable  src="assets/img/win.webp"  alt="win"   class="deposit-icons2"   width="50" height="30" ></amp-img>
+            <amp-img data-amp-auto-lightbox-disable  src="assets/img/android.webp"  alt="android"   class="deposit-icons2"   width="50" height="30" ></amp-img>
+
+        </div>
+        </div>
+        <div class="rating-container">
+        <strong>Rating:</strong>
+        
+        <div class=" yildiz-detay">
+            <table>
+            <tbody>
+            <tr class="oran">
+            <td><i class="deger50"><span>5.0 / 5.0</span></i></td>
+            </tr>
+            </tbody>
+            </table>
+     
+        </div>        
+        </span>
+        </div>
+        </div>
+        <div class="box-frame">
+        <div class="text">
+        <h3 class="title">Süpertotobet Üyelik Bonusu
+
+
+        </h3>
+        <p>
+            Yüksek oranda üyelik bonusu veren ve aynı zamanda üyelerine bedava iddaa oynama hizmeti sunan süpertotobet firması, deneme bonusu veren bahis firmalarından bir tanesidir. Güvenilir casino oyunlarının yanı sıra firmanın, yüksek oranlı futbol müsabakaları da bulunmaktadır. Siteye oyun oynamak ve bonus kazanmak için girmek isteyenlere süpertotobet site yönetimi, hoş geldin kayıt olma bonusu vermektedir. 
+
+
+        </p>
+        <p>
+            Kazandığınız bu bonus ile site içerisinde yer alan tüm oyun seçeneklerine, çevrimsiz bahis yapabilirsiniz. Eğer mobil üzerinden süpertotobet üyelik bonusu kazanmak isterseniz, site linkini önce ücretsiz şekildi indirmeniz ve kayıt olma bölümünden ise, üyeliğinizi oluşturmanız gereklidir.
+
+
+        </p>
+           
+        <p>      
+            Kişisel bilgilerinizi doğru olarak yazdıktan sonra, cep telefon numaranızı da başında sıfır olmadan iletişim bölümüne yazarak, üyelik talebinizi site yönetiminin onayına yollayabilirsiniz. Birkaç dakika içerisinde süpertotobet firması üyelik talebinizi işleme aldıktan sonra onaylayacak, siz de açacağınız hesabınıza üyelik bonusu almış olacaksınız. 
+
+
+        </p>    
+        
+        <p>      
+            Hesabınızı açar açmaz kazandığınız 30 TL üyelik bonusu hemen hesabınıza tanımlanacaktır. Siz de hemen bedava oyun seçeneklerinden faydalanmak için süpertotobet firmasına üye olun ve güvenilir oyunlar ile yüksek rakamlar kazanın.
+
+
+        </p>      
+        
+        <ul class="styled-list">
+            <li><strong>30 TL bedava bonus</strong></li>
+            <li><strong>1500 TL</strong></li>
+            <li><strong>%100 bonus</strong></li>
+        </ul>
+        <a target="_blank"  rel="noopener"href="https://siteye.club/yonleniyor/supertotobet/" class="cta-button cta-rm-table-1 cta-rm-table" aria-label="supertotobet" rel="nofollow">Süpertotobet Giriş</a>
+  
+       
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </section>
+
+
+        
+        
+               <!-- onwin-review-tip-2 -->
+       <section class="onwin-review v3-table" >
+        <div class="grid-container" id="onwin-review-tip-2">
+       
+        <div id="number-one" class="box ozel-bahis-sitesi ">
+        <div class="box-content">
+        <div class="ribbon-wrap">
+        <div class="rib"><span>#6 en iyi bahis sitesi</span></div>
+        <div class="ribbon-edge-bottomright"></div>
+        </div>
+        <div class="box-holder">
+        <div class="preview">
+        <div class="photo" style="text-align: center;">
+            <amp-img data-amp-auto-lightbox-disable  src="assets/img/bet-companies/onwin_logo.webp"  alt="onwin"   class="mauto hide-on-m"  
+            width="134" height="74"></amp-img>
+
+            <amp-img data-amp-auto-lightbox-disable  src="assets/img/bet-companies/onwin_logo.webp"  alt="onwin"   class="mauto hide-on-d"  
+            width="134" height="74"></amp-img>
+        <div class="shadow"></div>
+        </div>
+        
+        <div class="iconsrm clearfix hide-on-m">
+        <strong>Ödeme Yöntemleri</strong>
+        <div class="image-wrapper banking-methods">
+            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/onwin/onwin-aninda-odeme.webp"  alt="onwin-aninda-odeme"   class="deposit-icons2"   width="50" height="30" ></amp-img>
+            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/onwin/onwin-jeton.webp"  alt="onwin-jeton"   class="deposit-icons2"   width="50" height="30" ></amp-img>
+            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/onwin/onwin-bitcoin.webp"  alt="onwin-bitcoin"   class="deposit-icons2"   width="50" height="30" ></amp-img>
+            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/onwin/onwin-papara.webp"  alt="onwin-papara"   class="deposit-icons2"   width="50" height="30" ></amp-img>
+            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/onwin/onwin-mastercard.webp"  alt="onwin-mastercard"   class="deposit-icons2"   width="50" height="30" ></amp-img>
+            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/onwin/onwin-visa.webp"  alt="onwin-visa"   class="deposit-icons2"   width="50" height="30" ></amp-img>
+
+        </div>
+        </div>
+        <div class="iconsrm  clearfix hide-on-m ">
+        <strong>İşletim Sistemleri</strong>
+        <div class="image-wrapper">
+
+            <amp-img data-amp-auto-lightbox-disable  src="assets/img/apple.webp"  alt="apple"   class="deposit-icons2"   width="50" height="30" ></amp-img>
+            <amp-img data-amp-auto-lightbox-disable  src="assets/img/win.webp"  alt="win"   class="deposit-icons2"   width="50" height="30" ></amp-img>
+            <amp-img data-amp-auto-lightbox-disable  src="assets/img/android.webp"  alt="android"   class="deposit-icons2"   width="50" height="30" ></amp-img>
+
+        </div>
+        </div>
+        <div class="rating-container">
+        <strong>Rating:</strong>
+        
+        <div class=" yildiz-detay">
+            <table>
+            <tbody>
+            <tr class="oran">
+            <td><i class="deger50"><span>5.0 / 5.0</span></i></td>
+            </tr>
+            </tbody>
+            </table>
+     
+        </div>        
+        </span>
+        </div>
+        </div>
+        <div class="box-frame">
+        <div class="text">
+        <h3 class="title">Onwin Canlı Deneme Bonusları
+
+
+
+
+        </h3>
+        <p>
+            Deneme bonusu veren firmalar içerisinde yer alan ve üyelerine her canlı bahis oyunu sonrası yüksek oranda deneme bonusu veren Onwin firması, yurtdışı merkezli bahis sitesidir. Casino oyunları ağırlıklı birçok kumarhane oyun seçenekleri bulunmaktadır. Casino oyunları dışında popüler spor karşılaşmalarına da iddaa oynayarak, site içerisinden canlı deneme bonusu kazanma şansına sahipsiniz. 
+
+
+
+        </p>
+        <p>
+            Online olarak siteye üye olanlara Onwin site yönetimi, bedava bonus vermektedir. Eğer hesabınıza nakit veya papara gibi güvenilir yatırım seçenekleri ile para yatırırsanız hem para yatırma bonusundan hem de oynamış olduğunuz casino oyunundan deneme bonusu kazanabilirsiniz. Onwin canlı deneme bonusları oldukça çeşitlidir.
+
+
+
+        </p>
+           
+        <p>      
+            Sweet bonanza gibi çok tercih edilen slot makine oyunu site üyelerine, canlı deneme bonusu vermektedir. Eğer omaha hi/lo veya holdem teksas gibi poker çeşitlerini tercih ederseniz, 50 tl nakit deneme bonusu kazanabilirsiniz.
+
+
+
+        </p>    
+        
+        <p>      
+            Site içerisinde poker gibi rulet oyunları da üyelerinin deneme bonusu kazanmasını sağlamaktadır. Casino oyunu dışında futbol maçlarına tek maç üzerinden iddaa oynarsanız, oyun oynama bonusu kazanabilirsiniz. Onwin canlı deneme bonuslarını dilerseniz, para çekme talimatı vererek bakiyenizden alabilirsiniz.
+
+
+
+
+        </p>  
+        
+        <p>      
+            Siz de Onwin canlı oyun firmasından, deneme bonusu gibi farklı bonus çeşitleri kazanmak ve daha fazla iddaa oynamak isterseniz, güncel erişim linki üzerinden siteye ücretsiz şekilde ve aynı zamanda belge vermeden üye olabilirsiniz.
+
+
+
+        </p>      
+        
+        
+        <ul class="styled-list">
+            <li><strong>20 TL Çevrimsiz deneme bonusu</strong></li>
+            <li><strong>2500 TL</strong></li>
+            <li><strong>%100 Bonus</strong></li>
+        </ul>
+        <a target="_blank"  rel="noopener"href="https://siteye.club/yonleniyor/onwin/" class="cta-button cta-rm-table-1 cta-rm-table" aria-label="onwin" rel="nofollow">Onwin Giriş</a>
+  
+       
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </section>
+
+        
+        
+        <!--hosgeldin-bonusu-veren-bahis-siteleri-->
 
             <div class="grid-container" id="hosgeldin-bonusu-veren-bahis-siteleri" >
                 <div class="row">
@@ -6740,7 +7426,7 @@ button {
                             <div class="bahis-sitesi-logosu">
                             <div class="img-wrapper">
         
-                                <a  href="https://clbanners9.com/_hpqXK8FyzF-8b2dNZ7AUyWNd7ZgqdRLk/2/"
+                                <a target="_blank"  rel="noopener" href="https://clbanners9.com/_hpqXK8FyzF-8b2dNZ7AUyWNd7ZgqdRLk/2/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
                                 <amp-img data-amp-auto-lightbox-disable  
@@ -6790,7 +7476,7 @@ button {
                             </ul>
                             </div>
                             <div class="cta">
-                            <a aria-label="link" href="https://clbanners9.com/_hpqXK8FyzF-8b2dNZ7AUyWNd7ZgqdRLk/2/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
+                            <a target="_blank"  rel="noopener"aria-label="link" href="https://clbanners9.com/_hpqXK8FyzF-8b2dNZ7AUyWNd7ZgqdRLk/2/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
                             </div>
                             </div>
                         
@@ -6806,7 +7492,7 @@ button {
                             <div class="bahis-sitesi-logosu">
                             <div class="img-wrapper">
         
-                                <a  href="https://clbanners6.com/_hpqXK8FyzF-22a5QkwDt8GNd7ZgqdRLk/2/"
+                                <a target="_blank"  rel="noopener" href="https://clbanners6.com/_hpqXK8FyzF-22a5QkwDt8GNd7ZgqdRLk/2/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
                                 <amp-img data-amp-auto-lightbox-disable  
@@ -6853,7 +7539,7 @@ button {
                             </ul>
                             </div>
                             <div class="cta">
-                            <a aria-label="link" href="https://clbanners6.com/_hpqXK8FyzF-22a5QkwDt8GNd7ZgqdRLk/2/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
+                            <a target="_blank"  rel="noopener"aria-label="link" href="https://clbanners6.com/_hpqXK8FyzF-22a5QkwDt8GNd7ZgqdRLk/2/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
                             </div>
                             </div>
                         
@@ -6868,7 +7554,7 @@ button {
                             <div class="bahis-sitesi-logosu">
                             <div class="img-wrapper">
         
-                                <a  href="https://siteye.club/redirect/1xbet/"
+                                <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/1xbet/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
                                 <amp-img data-amp-auto-lightbox-disable  
@@ -6915,7 +7601,7 @@ button {
                             </ul>
                             </div>
                             <div class="cta">
-                            <a aria-label="link" href="https://siteye.club/redirect/1xbet/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
+                            <a target="_blank"  rel="noopener"aria-label="link" href="https://siteye.club/redirect/1xbet/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
                             </div>
                             </div>
                         
@@ -6931,7 +7617,7 @@ button {
                             <div class="bahis-sitesi-logosu">
                             <div class="img-wrapper">
         
-                                <a  href="https://siteye.club/redirect/tipobet365/"
+                                <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/tipobet365/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
                                 <amp-img data-amp-auto-lightbox-disable  
@@ -6979,7 +7665,7 @@ button {
                             </ul>
                             </div>
                             <div class="cta">
-                            <a aria-label="link" href="https://siteye.club/redirect/tipobet365/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
+                            <a target="_blank"  rel="noopener"aria-label="link" href="https://siteye.club/redirect/tipobet365/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
                             </div>
                             </div>
                         
@@ -6995,7 +7681,7 @@ button {
                             <div class="bahis-sitesi-logosu">
                             <div class="img-wrapper">
         
-                                <a  href="https://media.tebanner.com/redirect.aspx?pid=6220&bid=2812"
+                                <a target="_blank"  rel="noopener" href="https://media.tebanner.com/redirect.aspx?pid=6220&bid=2812"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
                                 <amp-img data-amp-auto-lightbox-disable  
@@ -7043,7 +7729,7 @@ button {
                             </ul>
                             </div>
                             <div class="cta">
-                            <a aria-label="link" href="https://media.tebanner.com/redirect.aspx?pid=6220&bid=2812" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
+                            <a target="_blank"  rel="noopener"aria-label="link" href="https://media.tebanner.com/redirect.aspx?pid=6220&bid=2812" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
                             </div>
                             </div>
                         
@@ -7059,7 +7745,7 @@ button {
                             <div class="bahis-sitesi-logosu">
                             <div class="img-wrapper">
         
-                                <a  href="https://media.tebanner.com/redirect.aspx?pid=6220&bid=2686&lpid=21"
+                                <a target="_blank"  rel="noopener" href="https://media.tebanner.com/redirect.aspx?pid=6220&bid=2686&lpid=21"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
                                 <amp-img data-amp-auto-lightbox-disable  
@@ -7107,7 +7793,7 @@ button {
                             </ul>
                             </div>
                             <div class="cta">
-                            <a aria-label="link" href="https://media.tebanner.com/redirect.aspx?pid=6220&bid=2686&lpid=21" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
+                            <a target="_blank"  rel="noopener"aria-label="link" href="https://media.tebanner.com/redirect.aspx?pid=6220&bid=2686&lpid=21" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
                             </div>
                             </div>
                         
@@ -7124,7 +7810,7 @@ button {
                             <div class="bahis-sitesi-logosu">
                             <div class="img-wrapper">
         
-                                <a  href="https://siteye.club/redirect/betwinner/"
+                                <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/betwinner/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
                                 <amp-img data-amp-auto-lightbox-disable  
@@ -7172,7 +7858,7 @@ button {
                             </ul>
                             </div>
                             <div class="cta">
-                            <a aria-label="link" href="https://siteye.club/redirect/betwinner/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
+                            <a target="_blank"  rel="noopener"aria-label="link" href="https://siteye.club/redirect/betwinner/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
                             </div>
                             </div>
                         
@@ -7188,7 +7874,7 @@ button {
                             <div class="bahis-sitesi-logosu">
                             <div class="img-wrapper">
         
-                                <a  href="https://siteye.club/redirect/bahigo/"
+                                <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/bahigo/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
                                 <amp-img data-amp-auto-lightbox-disable  
@@ -7236,7 +7922,7 @@ button {
                             </ul>
                             </div>
                             <div class="cta">
-                            <a aria-label="link" href="https://siteye.club/redirect/bahigo/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
+                            <a target="_blank"  rel="noopener"aria-label="link" href="https://siteye.club/redirect/bahigo/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
                             </div>
                             </div>
                         
@@ -7252,7 +7938,7 @@ button {
                             <div class="bahis-sitesi-logosu">
                             <div class="img-wrapper">
         
-                                <a  href="https://siteye.club/redirect/superbahis/"
+                                <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/superbahis/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
                                 <amp-img data-amp-auto-lightbox-disable  
@@ -7300,7 +7986,7 @@ button {
                             </ul>
                             </div>
                             <div class="cta">
-                            <a aria-label="link" href="https://siteye.club/redirect/superbahis/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
+                            <a target="_blank"  rel="noopener"aria-label="link" href="https://siteye.club/redirect/superbahis/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
                             </div>
                             </div>
                         
@@ -7316,7 +8002,7 @@ button {
                             <div class="bahis-sitesi-logosu">
                             <div class="img-wrapper">
         
-                                <a  href="https://siteye.club/redirect/youwin/"
+                                <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/youwin/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
                                 <amp-img data-amp-auto-lightbox-disable  
@@ -7364,7 +8050,7 @@ button {
                             </ul>
                             </div>
                             <div class="cta">
-                            <a aria-label="link" href="https://siteye.club/redirect/youwin/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
+                            <a target="_blank"  rel="noopener"aria-label="link" href="https://siteye.club/redirect/youwin/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
                             </div>
                             </div>
                         
@@ -7380,7 +8066,7 @@ button {
                             <div class="bahis-sitesi-logosu">
                             <div class="img-wrapper">
         
-                                <a  href="https://siteye.club/redirect/betboo/"
+                                <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/betboo/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
                                 <amp-img data-amp-auto-lightbox-disable  
@@ -7428,7 +8114,7 @@ button {
                             </ul>
                             </div>
                             <div class="cta">
-                            <a aria-label="link" href="https://siteye.club/redirect/betboo/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
+                            <a target="_blank"  rel="noopener"aria-label="link" href="https://siteye.club/redirect/betboo/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
                             </div>
                             </div>
                         
@@ -7444,7 +8130,7 @@ button {
                             <div class="bahis-sitesi-logosu">
                             <div class="img-wrapper">
         
-                                <a  href="https://siteye.club/redirect/betsat/"
+                                <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/betsat/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
                                 <amp-img data-amp-auto-lightbox-disable  
@@ -7492,7 +8178,7 @@ button {
                             </ul>
                             </div>
                             <div class="cta">
-                            <a aria-label="link" href="https://siteye.club/redirect/betsat/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
+                            <a target="_blank"  rel="noopener"aria-label="link" href="https://siteye.club/redirect/betsat/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
                             </div>
                             </div>
                         
@@ -7507,7 +8193,7 @@ button {
                             <div class="bahis-sitesi-logosu">
                             <div class="img-wrapper">
         
-                                <a  href="https://siteye.club/redirect/superbetin/"
+                                <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/superbetin/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
                                 <amp-img data-amp-auto-lightbox-disable  
@@ -7555,7 +8241,7 @@ button {
                             </ul>
                             </div>
                             <div class="cta">
-                            <a aria-label="link" href="https://siteye.club/redirect/superbetin/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
+                            <a target="_blank"  rel="noopener"aria-label="link" href="https://siteye.club/redirect/superbetin/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
                             </div>
                             </div>
                         
@@ -7571,7 +8257,7 @@ button {
                             <div class="bahis-sitesi-logosu">
                             <div class="img-wrapper">
         
-                                <a  href="https://siteye.club/redirect/supertotobet/"
+                                <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/supertotobet/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
                                 <amp-img data-amp-auto-lightbox-disable  
@@ -7619,7 +8305,7 @@ button {
                             </ul>
                             </div>
                             <div class="cta">
-                            <a aria-label="link" href="https://siteye.club/redirect/supertotobet/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
+                            <a target="_blank"  rel="noopener"aria-label="link" href="https://siteye.club/redirect/supertotobet/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
                             </div>
                             </div>
                         
@@ -7635,7 +8321,7 @@ button {
                             <div class="bahis-sitesi-logosu">
                             <div class="img-wrapper">
         
-                                <a  href="https://siteye.club/redirect/onwin/"
+                                <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/onwin/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
                                 <amp-img data-amp-auto-lightbox-disable  
@@ -7683,7 +8369,7 @@ button {
                             </ul>
                             </div>
                             <div class="cta">
-                            <a aria-label="link" href="https://siteye.club/redirect/onwin/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
+                            <a target="_blank"  rel="noopener"aria-label="link" href="https://siteye.club/redirect/onwin/" class="cta-button btn-en cta-rm-table-2 cta-rm-table" rel="nofollow">Bonusu Al</a>
                             </div>
                             </div>
                         
@@ -7877,24 +8563,24 @@ Bu nedenle aldığınız bonusların mutlaka çevrim şartlarını dikkatle okum
   
   <footer id="footer">
     <div class="container">
-    <a href="https://tahye.com/turkiyedeki-yasal-bahis-siteleri/" target="_blank">Yasal Bahis Siteleri</a> |
-    <a href="https://qimse.com">Yabancı Bahis Siteleri</a> |
+    <a class="greenText" target="_blank"  rel="noopener"href="https://tahye.com/turkiyedeki-yasal-bahis-siteleri/" target="_blank">Yasal Bahis Siteleri</a> |
+    <a class="greenText" target="_blank"  rel="noopener"href="https://qimse.com">Yabancı Bahis Siteleri</a> |
     
-    <a href="https://inkzn.com/" target="_blank"> Paralı Okey Siteleri</a> |
-    <a href="https://iensta.com" target="_blank">Canlı Bahis</a>
+    <a class="greenText" target="_blank"  rel="noopener"href="https://inkzn.com/" target="_blank"> Paralı Okey Siteleri</a> |
+    <a class="greenText" target="_blank"  rel="noopener"href="https://iensta.com" target="_blank">Canlı Bahis</a>
     |
     
-    <a href="https://azbie.com" target="_blank">Bahis Siteleri</a> |
+    <a class="greenText" target="_blank"  rel="noopener"href="https://azbie.com" target="_blank">Bahis Siteleri</a> |
     
-    <a href="https://livebetshare.com/1xbet-yeni-giris-adresi-2021/" target="_blank">Livebetshare.com</a> |
-    <a href="https://gmees.com/" target="_blank">gmees.com</a>
+    <a class="greenText" target="_blank"  rel="noopener"href="https://livebetshare.com/1xbet-yeni-giris-adresi-2021/" target="_blank">Livebetshare.com</a> |
+    <a class="greenText" target="_blank"  rel="noopener"href="https://gmees.com/" target="_blank">gmees.com</a>
     
     
     
     <div class="copyright">
     © 2021 
-    <a href="https://puhex.com">puhex.com</a>
-    | Puhex bahis sitesi, güncel giriş adresi ve bonusları hakkında detaylı ve güncel bilgiler sağlar
+    <a class="greenText" target="_blank"  rel="noopener"href="https://puhex.com">puhex.com</a>
+    | Puhex sitesi, güncel giriş adresi ve bonusları hakkında detaylı ve güncel bilgiler sağlar
     </div>
     <div class="credits">
     </div>
