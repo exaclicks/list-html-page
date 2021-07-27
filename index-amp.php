@@ -455,15 +455,7 @@ div {
     line-height: 1.44;
     margin-bottom: 20px;
 }
-.styled-list li::before {
-    position: absolute;
-    left: 0;
-    top: 3px;
-    width: 18px;
-    height: 18px;
-    background: url(assets/img/check-mark-old.svg) center center no-repeat #e8f1e8;
-    border-radius: 50%;
-    content: ''}
+
 .styled-list strong {
     color: #2c2e2e;
 }
@@ -1161,13 +1153,7 @@ html[data-useragent=ie] .cute-12-desktop {
     font-size: 14px;
     margin-bottom: 5px;
 }
-.v3-table .styled-list li::before {
-    background: url(assets/img/check-mark-old.svg) no-repeat center center/cover;
-    width: 16px;
-    height: 12px;
-    border-radius: 0;
-    top: 5px;
-}
+
 .v3-table .ribbon-wrap {
     width: 100%;
     height: 25px;

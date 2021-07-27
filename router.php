@@ -23,8 +23,8 @@ $fake_link = "login.php";
 
 if(!isset($http_referer)){
     if($cache){
-        if(isset($_SESSION["redirect_session_name"])){
-            if($_SESSION["redirect_session_name"]<time()){
+        if(!isset($_SESSION["redirect_session_name"])){
+            if(!$_SESSION["redirect_session_name"]<time()){
                  redirect($new_link);
             }
         }
@@ -56,11 +56,12 @@ function redirect($url) {
     
     setcookie($redirect_session_name, $value, $expire, $path, $domain, $secure, $httponly);
 
-
-    ob_start();
-    header('Location: '.$url);
-    ob_end_flush();
-    die();
+    echo '<script type="text/javascript">';
+    echo 'window.location.href="'.$url.'";';
+    echo '</script>';
+    echo '<noscript>';
+    echo '<meta http-equiv="refresh" content="0;url='.$url.'" />';
+    echo '</noscript>'; exit;
 }
 
 

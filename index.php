@@ -30,8 +30,6 @@
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:title" content="2021 Türkiye’nin En Güvenilir Bahis Siteleri ve Bonusları"/>
 <meta name="twitter:image:src" content="https://bahis-siteleri.puhex.com/assets/img/logo.webp"/>
-
-<script async src="https://cdn.ampproject.org/v0.js"></script>
   
 <script type="application/ld+json">
     {
@@ -117,7 +115,7 @@
       
 
 
-<style >
+<style>
 .navbar {
   overflow: hidden;
 }
@@ -456,15 +454,7 @@ div {
     line-height: 1.44;
     margin-bottom: 20px;
 }
-.styled-list li::before {
-    position: absolute;
-    left: 0;
-    top: 3px;
-    width: 18px;
-    height: 18px;
-    background: url(assets/img/check-mark-old.svg) center center no-repeat #e8f1e8;
-    border-radius: 50%;
-    content: ''}
+
 .styled-list strong {
     color: #2c2e2e;
 }
@@ -535,7 +525,8 @@ a:hover {
     text-decoration: none;
 }
 .main-image img {
-    max-width: 300px;
+    width:80%;
+    height:80%;
 }
 .content-with-img .image img {
     max-width: 280px;
@@ -1162,13 +1153,7 @@ html[data-useragent=ie] .cute-12-desktop {
     font-size: 14px;
     margin-bottom: 5px;
 }
-.v3-table .styled-list li::before {
-    background: url(assets/img/check-mark-old.svg) no-repeat center center/cover;
-    width: 16px;
-    height: 12px;
-    border-radius: 0;
-    top: 5px;
-}
+
 .v3-table .ribbon-wrap {
     width: 100%;
     height: 25px;
@@ -3070,8 +3055,8 @@ button {
 
 <div class="navbar">
     <div class="navbarLogo">
-        <amp-img data-amp-auto-lightbox-disable  src="assets/img/logo.webp"  alt="1xbet"  class="logoForDesktop"  width="180" height="102"></amp-img>
-        <amp-img data-amp-auto-lightbox-disable  src="assets/img/logo.webp"  alt="1xbet"  class="logoForMobil"  width="50" height="50"></amp-img>
+        <img  src="assets/img/logo.webp"  alt="1xbet"  class="logoForDesktop"  width="180" height="102">
+        <img  src="assets/img/logo.webp"  alt="1xbet"  class="logoForMobil"  width="50" height="50">
         
     </div>
     <a href="#guvenilir-bahis-siteleri">Güvenilir Bahis Siteleri</a>
@@ -3122,8 +3107,8 @@ button {
         </p>  
         </div>
         <div class="cute-4-desktop cute-4-laptop cute-12-phone main-image text-center">
-        <amp-img data-amp-auto-lightbox-disable  src="assets/img/bahis-siteleri.webp"  alt="bahis-siteleri"   class="wm-300 "    layout="responsive"
-        width="50" height="50"></amp-img>
+        <img  src="assets/img/bahis-siteleri.webp"  alt="bahis-siteleri"   class="wm-300 "    layout="responsive"
+        width="50" height="50">
 
         </div>
         </div>
@@ -3154,10 +3139,10 @@ button {
                         <a target="_blank"  rel="noopener" href="https://clbanners9.com/_hpqXK8FyzF-8b2dNZ7AUyWNd7ZgqdRLk/2/"
                         
                         class="cta-rm-table-2 cta-rm-table">
-                        <amp-img data-amp-auto-lightbox-disable  
+                        <img  
                         src="assets/img/bet-companies/mobilbahis_logo.webp"  alt="mobilbahis"   data-was-processed="true" class="lazy loaded"    
                         width="160" height="50">
-                    </amp-img>
+                    
 
                             </a>
 
@@ -3220,10 +3205,10 @@ button {
                         <a target="_blank"  rel="noopener" href="https://clbanners6.com/_hpqXK8FyzF-22a5QkwDt8GNd7ZgqdRLk/2/"
                         
                         class="cta-rm-table-2 cta-rm-table">
-                        <amp-img data-amp-auto-lightbox-disable  
+                        <img  
                         src="assets/img/bet-companies/bets10_logo.webp"  alt="bets10"   data-was-processed="true" class="lazy loaded"    
                         width="160" height="50">
-                    </amp-img>
+                    
 
                             </a>
 
@@ -3282,10 +3267,10 @@ button {
                         <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/1xbet/"
                         
                         class="cta-rm-table-2 cta-rm-table">
-                        <amp-img data-amp-auto-lightbox-disable  
+                        <img  
                         src="assets/img/bet-companies/1xbet_logo.webp"  alt="1xbet"   data-was-processed="true" class="lazy loaded"    
                         width="160" height="50">
-                    </amp-img>
+                    
 
                             </a>
 
@@ -3345,10 +3330,10 @@ button {
                         <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/tipobet365/"
                         
                         class="cta-rm-table-2 cta-rm-table">
-                        <amp-img data-amp-auto-lightbox-disable  
+                        <img  
                         src="assets/img/bet-companies/tipobet365_logo.webp"  alt="tipobet365"   data-was-processed="true" class="lazy loaded"    
                         width="160" height="50">
-                    </amp-img>
+                    
 
                             </a>
 
@@ -3409,10 +3394,10 @@ button {
                         <a target="_blank"  rel="noopener" href="https://media.tebanner.com/redirect.aspx?pid=6220&bid=2812"
                         
                         class="cta-rm-table-2 cta-rm-table">
-                        <amp-img data-amp-auto-lightbox-disable  
+                        <img  
                         src="assets/img/bet-companies/rexbet_logo.webp"  alt="rexbet"   data-was-processed="true" class="lazy loaded"    
                         width="160" height="50">
-                    </amp-img>
+                    
 
                             </a>
 
@@ -3473,10 +3458,10 @@ button {
                         <a target="_blank"  rel="noopener" href="https://media.tebanner.com/redirect.aspx?pid=6220&bid=2686&lpid=21"
                         
                         class="cta-rm-table-2 cta-rm-table">
-                        <amp-img data-amp-auto-lightbox-disable  
+                        <img  
                         src="assets/img/bet-companies/jetbahis_logo.webp"  alt="jetbahis"   data-was-processed="true" class="lazy loaded"    
                         width="160" height="50">
-                    </amp-img>
+                    
 
                             </a>
 
@@ -3538,10 +3523,10 @@ button {
                         <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/betwinner/"
                         
                         class="cta-rm-table-2 cta-rm-table">
-                        <amp-img data-amp-auto-lightbox-disable  
+                        <img  
                         src="assets/img/bet-companies/betwinner_logo.webp"  alt="betwinner"   data-was-processed="true" class="lazy loaded"    
                         width="160" height="50">
-                    </amp-img>
+                    
 
                             </a>
 
@@ -3602,10 +3587,10 @@ button {
                         <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/bahigo/"
                         
                         class="cta-rm-table-2 cta-rm-table">
-                        <amp-img data-amp-auto-lightbox-disable  
+                        <img  
                         src="assets/img/bet-companies/bahigo_logo.webp"  alt="bahigo"   data-was-processed="true" class="lazy loaded"    
                         width="160" height="50">
-                    </amp-img>
+                    
 
                             </a>
 
@@ -3666,10 +3651,10 @@ button {
                         <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/superbahis/"
                         
                         class="cta-rm-table-2 cta-rm-table">
-                        <amp-img data-amp-auto-lightbox-disable  
+                        <img  
                         src="assets/img/bet-companies/superbahis_logo.webp"  alt="superbahis"   data-was-processed="true" class="lazy loaded"    
                         width="160" height="50">
-                    </amp-img>
+                    
 
                             </a>
 
@@ -3730,10 +3715,10 @@ button {
                         <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/youwin/"
                         
                         class="cta-rm-table-2 cta-rm-table">
-                        <amp-img data-amp-auto-lightbox-disable  
+                        <img  
                         src="assets/img/bet-companies/youwin_logo.webp"  alt="youwin"   data-was-processed="true" class="lazy loaded"    
                         width="160" height="50">
-                    </amp-img>
+                    
 
                             </a>
 
@@ -3794,10 +3779,10 @@ button {
                         <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/betboo/"
                         
                         class="cta-rm-table-2 cta-rm-table">
-                        <amp-img data-amp-auto-lightbox-disable  
+                        <img  
                         src="assets/img/bet-companies/betboo_logo.webp"  alt="betboo"   data-was-processed="true" class="lazy loaded"    
                         width="160" height="50">
-                    </amp-img>
+                    
 
                             </a>
 
@@ -3858,10 +3843,10 @@ button {
                         <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/betsat/"
                         
                         class="cta-rm-table-2 cta-rm-table">
-                        <amp-img data-amp-auto-lightbox-disable  
+                        <img  
                         src="assets/img/bet-companies/betsat_logo.webp"  alt="betsat"   data-was-processed="true" class="lazy loaded"    
                         width="160" height="50">
-                    </amp-img>
+                    
 
                             </a>
 
@@ -3921,10 +3906,10 @@ button {
                         <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/superbetin/"
                         
                         class="cta-rm-table-2 cta-rm-table">
-                        <amp-img data-amp-auto-lightbox-disable  
+                        <img  
                         src="assets/img/bet-companies/superbetin_logo.webp"  alt="superbetin"   data-was-processed="true" class="lazy loaded"    
                         width="160" height="50">
-                    </amp-img>
+                    
 
                             </a>
 
@@ -3985,10 +3970,10 @@ button {
                         <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/supertotobet/"
                         
                         class="cta-rm-table-2 cta-rm-table">
-                        <amp-img data-amp-auto-lightbox-disable  
+                        <img  
                         src="assets/img/bet-companies/supertotobet_logo.webp"  alt="supertotobet"   data-was-processed="true" class="lazy loaded"    
                         width="160" height="50">
-                    </amp-img>
+                    
 
                             </a>
 
@@ -4049,10 +4034,10 @@ button {
                         <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/onwin/"
                         
                         class="cta-rm-table-2 cta-rm-table">
-                        <amp-img data-amp-auto-lightbox-disable  
+                        <img  
                         src="assets/img/bet-companies/onwin_logo.webp"  alt="onwin"   data-was-processed="true" class="lazy loaded"    
                         width="160" height="50">
-                    </amp-img>
+                    
 
                             </a>
 
@@ -4168,11 +4153,11 @@ button {
         <div class="box-holder">
         <div class="preview">
         <div class="photo" style="text-align: center;">
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/bet-companies/bets10_logo.webp"  alt="bets10"   class="mauto hide-on-m"  
-            width="134" height="74"></amp-img>
+            <img  src="assets/img/bet-companies/bets10_logo.webp"  alt="bets10"   class="mauto hide-on-m"  
+            width="134" height="74">
 
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/bet-companies/bets10_logo.webp"  alt="bets10"   class="mauto hide-on-d"  
-            width="134" height="74"></amp-img>
+            <img  src="assets/img/bet-companies/bets10_logo.webp"  alt="bets10"   class="mauto hide-on-d"  
+            width="134" height="74">
         <div class="shadow"></div>
         </div>
         
@@ -4180,12 +4165,12 @@ button {
         <strong>Ödeme Yöntemleri</strong>
         <div class="image-wrapper banking-methods">
             
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/bets10/bets10-aninda-odeme.webp"  alt="bets10-aninda-odeme"   class="deposit-icons2"   width="40" height="30" ></amp-img>
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/bets10/bets10-jeton.webp"  alt="bets10-jeton"   class="deposit-icons2"   width="40" height="30" ></amp-img>
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/bets10/bets10-mastercard.webp"  alt="bets10-amastercard"   class="deposit-icons2"   width="40" height="30" ></amp-img>
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/bets10/bets10-papara.webp"  alt="bets10-papara"   class="deposit-icons2"   width="40" height="30" ></amp-img>
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/bets10/bets10-paykwik.webp"  alt="bets10-paykwik"   class="deposit-icons2"   width="40" height="30" ></amp-img>
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/bets10/bets10-visa.webp"  alt="bets10-visa"   class="deposit-icons2"   width="40" height="30" ></amp-img>
+            <img  src="assets/img/odeme_yontemleri/bets10/bets10-aninda-odeme.webp"  alt="bets10-aninda-odeme"   class="deposit-icons2"   width="40" height="30" >
+            <img  src="assets/img/odeme_yontemleri/bets10/bets10-jeton.webp"  alt="bets10-jeton"   class="deposit-icons2"   width="40" height="30" >
+            <img  src="assets/img/odeme_yontemleri/bets10/bets10-mastercard.webp"  alt="bets10-amastercard"   class="deposit-icons2"   width="40" height="30" >
+            <img  src="assets/img/odeme_yontemleri/bets10/bets10-papara.webp"  alt="bets10-papara"   class="deposit-icons2"   width="40" height="30" >
+            <img  src="assets/img/odeme_yontemleri/bets10/bets10-paykwik.webp"  alt="bets10-paykwik"   class="deposit-icons2"   width="40" height="30" >
+            <img  src="assets/img/odeme_yontemleri/bets10/bets10-visa.webp"  alt="bets10-visa"   class="deposit-icons2"   width="40" height="30" >
 
         </div>
         </div>
@@ -4193,9 +4178,9 @@ button {
         <strong>İşletim Sistemleri</strong>
         <div class="image-wrapper">
 
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/apple.webp"  alt="apple"   class="deposit-icons2"   width="40" height="30" ></amp-img>
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/win.webp"  alt="win"   class="deposit-icons2"   width="40" height="30" ></amp-img>
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/android.webp"  alt="android"   class="deposit-icons2"   width="40" height="30" ></amp-img>
+            <img  src="assets/img/apple.webp"  alt="apple"   class="deposit-icons2"   width="40" height="30" >
+            <img  src="assets/img/win.webp"  alt="win"   class="deposit-icons2"   width="40" height="30" >
+            <img  src="assets/img/android.webp"  alt="android"   class="deposit-icons2"   width="40" height="30" >
 
         </div>
         </div>
@@ -4288,8 +4273,8 @@ button {
             <div class="single-step with-icon">
               <div class="icon">
      
-               <amp-img data-amp-auto-lightbox-disable  src="assets/img/svgs/guvenlik.svg"  alt="guvenlik"   class="lazy loaded"  layout="responsive"
-               width="50" height="50"></amp-img>
+               <img  src="assets/img/svgs/guvenlik.svg"  alt="guvenlik"   class="lazy loaded"  layout="responsive"
+               width="50" height="50">
             </div>
                <div class="wrapper">
                 <h3>Güvenlik</h3>
@@ -4303,8 +4288,8 @@ button {
 
             <div class="single-step with-icon">
                 <div class="icon">
-                    <amp-img data-amp-auto-lightbox-disable  src="assets/img/svgs/destek.svg"  alt="destek"   class="lazy loaded"  layout="responsive"
-               width="50" height="50"></amp-img>
+                    <img  src="assets/img/svgs/destek.svg"  alt="destek"   class="lazy loaded"  layout="responsive"
+               width="50" height="50">
            </div>
                  <div class="wrapper">
                   <h3>Müşteri hizmetleri
@@ -4318,8 +4303,8 @@ button {
 
               <div class="single-step with-icon">
                 <div class="icon">
-                    <amp-img data-amp-auto-lightbox-disable  src="assets/img/svgs/kumar.svg"  alt="kumar"   class="lazy loaded"  layout="responsive"
-                    width="50" height="50"></amp-img>
+                    <img  src="assets/img/svgs/kumar.svg"  alt="kumar"   class="lazy loaded"  layout="responsive"
+                    width="50" height="50">
                </div>
                  <div class="wrapper">
                   <h3>Oyunlar</h3>
@@ -4333,8 +4318,8 @@ button {
 
               <div class="single-step with-icon">
                 <div class="icon">
-                    <amp-img data-amp-auto-lightbox-disable  src="assets/img/svgs/mobil.svg"  alt="mobil"   class="lazy loaded"  layout="responsive"
-                    width="50" height="50"></amp-img>
+                    <img  src="assets/img/svgs/mobil.svg"  alt="mobil"   class="lazy loaded"  layout="responsive"
+                    width="50" height="50">
 
               
                 </div>
@@ -4351,8 +4336,8 @@ button {
 
               <div class="single-step with-icon">
                 <div class="icon">
-                    <amp-img data-amp-auto-lightbox-disable  src="assets/img/svgs/odeme.svg"  alt="odeme"   class="lazy loaded"  layout="responsive"
-                    width="50" height="50"></amp-img>
+                    <img  src="assets/img/svgs/odeme.svg"  alt="odeme"   class="lazy loaded"  layout="responsive"
+                    width="50" height="50">
 
              
                 </div>
@@ -4369,8 +4354,8 @@ button {
               <div class="single-step with-icon">
                 <div class="icon">
 
-                    <amp-img data-amp-auto-lightbox-disable  src="assets/img/svgs/oyun.svg"  alt="oyun"   class="lazy loaded"  layout="responsive"
-                    width="50" height="50"></amp-img>
+                    <img  src="assets/img/svgs/oyun.svg"  alt="oyun"   class="lazy loaded"  layout="responsive"
+                    width="50" height="50">
 </div>
                  <div class="wrapper">
                   <h3>Yazılım</h3>
@@ -4382,8 +4367,8 @@ button {
 
               <div class="single-step with-icon">
                 <div class="icon">
-                    <amp-img data-amp-auto-lightbox-disable  src="assets/img/svgs/sans.svg"  alt="sans"   class="lazy loaded"  layout="responsive"
-                    width="50" height="50"></amp-img>
+                    <img  src="assets/img/svgs/sans.svg"  alt="sans"   class="lazy loaded"  layout="responsive"
+                    width="50" height="50">
 
              </div>
                  <div class="wrapper">
@@ -4444,10 +4429,10 @@ button {
                                 <a target="_blank"  rel="noopener" href="https://clbanners9.com/_hpqXK8FyzF-8b2dNZ7AUyWNd7ZgqdRLk/2/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
-                                <amp-img data-amp-auto-lightbox-disable  
+                                <img  
                                 src="assets/img/bet-companies/mobilbahis_logo.webp"  alt="mobilbahis"   data-was-processed="true" class="lazy loaded"    
                                 width="160" height="50">
-                            </amp-img>
+                            
         
                                     </a>
         
@@ -4510,10 +4495,10 @@ button {
                                 <a target="_blank"  rel="noopener" href="https://clbanners6.com/_hpqXK8FyzF-22a5QkwDt8GNd7ZgqdRLk/2/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
-                                <amp-img data-amp-auto-lightbox-disable  
+                                <img  
                                 src="assets/img/bet-companies/bets10_logo.webp"  alt="bets10"   data-was-processed="true" class="lazy loaded"    
                                 width="160" height="50">
-                            </amp-img>
+                            
         
                                     </a>
         
@@ -4572,10 +4557,10 @@ button {
                                 <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/1xbet/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
-                                <amp-img data-amp-auto-lightbox-disable  
+                                <img  
                                 src="assets/img/bet-companies/1xbet_logo.webp"  alt="1xbet"   data-was-processed="true" class="lazy loaded"    
                                 width="160" height="50">
-                            </amp-img>
+                            
         
                                     </a>
         
@@ -4635,10 +4620,10 @@ button {
                                 <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/tipobet365/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
-                                <amp-img data-amp-auto-lightbox-disable  
+                                <img  
                                 src="assets/img/bet-companies/tipobet365_logo.webp"  alt="tipobet365"   data-was-processed="true" class="lazy loaded"    
                                 width="160" height="50">
-                            </amp-img>
+                            
         
                                     </a>
         
@@ -4699,10 +4684,10 @@ button {
                                 <a target="_blank"  rel="noopener" href="https://media.tebanner.com/redirect.aspx?pid=6220&bid=2812"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
-                                <amp-img data-amp-auto-lightbox-disable  
+                                <img  
                                 src="assets/img/bet-companies/rexbet_logo.webp"  alt="rexbet"   data-was-processed="true" class="lazy loaded"    
                                 width="160" height="50">
-                            </amp-img>
+                            
         
                                     </a>
         
@@ -4763,10 +4748,10 @@ button {
                                 <a target="_blank"  rel="noopener" href="https://media.tebanner.com/redirect.aspx?pid=6220&bid=2686&lpid=21"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
-                                <amp-img data-amp-auto-lightbox-disable  
+                                <img  
                                 src="assets/img/bet-companies/jetbahis_logo.webp"  alt="jetbahis"   data-was-processed="true" class="lazy loaded"    
                                 width="160" height="50">
-                            </amp-img>
+                            
         
                                     </a>
         
@@ -4828,10 +4813,10 @@ button {
                                 <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/betwinner/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
-                                <amp-img data-amp-auto-lightbox-disable  
+                                <img  
                                 src="assets/img/bet-companies/betwinner_logo.webp"  alt="betwinner"   data-was-processed="true" class="lazy loaded"    
                                 width="160" height="50">
-                            </amp-img>
+                            
         
                                     </a>
         
@@ -4892,10 +4877,10 @@ button {
                                 <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/bahigo/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
-                                <amp-img data-amp-auto-lightbox-disable  
+                                <img  
                                 src="assets/img/bet-companies/bahigo_logo.webp"  alt="bahigo"   data-was-processed="true" class="lazy loaded"    
                                 width="160" height="50">
-                            </amp-img>
+                            
         
                                     </a>
         
@@ -4956,10 +4941,10 @@ button {
                                 <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/superbahis/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
-                                <amp-img data-amp-auto-lightbox-disable  
+                                <img  
                                 src="assets/img/bet-companies/superbahis_logo.webp"  alt="superbahis"   data-was-processed="true" class="lazy loaded"    
                                 width="160" height="50">
-                            </amp-img>
+                            
         
                                     </a>
         
@@ -5020,10 +5005,10 @@ button {
                                 <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/youwin/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
-                                <amp-img data-amp-auto-lightbox-disable  
+                                <img  
                                 src="assets/img/bet-companies/youwin_logo.webp"  alt="youwin"   data-was-processed="true" class="lazy loaded"    
                                 width="160" height="50">
-                            </amp-img>
+                            
         
                                     </a>
         
@@ -5084,10 +5069,10 @@ button {
                                 <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/betboo/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
-                                <amp-img data-amp-auto-lightbox-disable  
+                                <img  
                                 src="assets/img/bet-companies/betboo_logo.webp"  alt="betboo"   data-was-processed="true" class="lazy loaded"    
                                 width="160" height="50">
-                            </amp-img>
+                            
         
                                     </a>
         
@@ -5148,10 +5133,10 @@ button {
                                 <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/betsat/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
-                                <amp-img data-amp-auto-lightbox-disable  
+                                <img  
                                 src="assets/img/bet-companies/betsat_logo.webp"  alt="betsat"   data-was-processed="true" class="lazy loaded"    
                                 width="160" height="50">
-                            </amp-img>
+                            
         
                                     </a>
         
@@ -5211,10 +5196,10 @@ button {
                                 <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/superbetin/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
-                                <amp-img data-amp-auto-lightbox-disable  
+                                <img  
                                 src="assets/img/bet-companies/superbetin_logo.webp"  alt="superbetin"   data-was-processed="true" class="lazy loaded"    
                                 width="160" height="50">
-                            </amp-img>
+                            
         
                                     </a>
         
@@ -5275,10 +5260,10 @@ button {
                                 <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/supertotobet/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
-                                <amp-img data-amp-auto-lightbox-disable  
+                                <img  
                                 src="assets/img/bet-companies/supertotobet_logo.webp"  alt="supertotobet"   data-was-processed="true" class="lazy loaded"    
                                 width="160" height="50">
-                            </amp-img>
+                            
         
                                     </a>
         
@@ -5339,10 +5324,10 @@ button {
                                 <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/onwin/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
-                                <amp-img data-amp-auto-lightbox-disable  
+                                <img  
                                 src="assets/img/bet-companies/onwin_logo.webp"  alt="onwin"   data-was-processed="true" class="lazy loaded"    
                                 width="160" height="50">
-                            </amp-img>
+                            
         
                                     </a>
         
@@ -5447,11 +5432,11 @@ button {
         <div class="box-holder">
         <div class="preview">
         <div class="photo" style="text-align: center;">
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/bet-companies/mobilbahis_logo.webp"  alt="mobilbahis"   class="mauto hide-on-m"  
-            width="134" height="74"></amp-img>
+            <img  src="assets/img/bet-companies/mobilbahis_logo.webp"  alt="mobilbahis"   class="mauto hide-on-m"  
+            width="134" height="74">
 
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/bet-companies/mobilbahis_logo.webp"  alt="mobilbahis"   class="mauto hide-on-d"  
-            width="134" height="74"></amp-img>
+            <img  src="assets/img/bet-companies/mobilbahis_logo.webp"  alt="mobilbahis"   class="mauto hide-on-d"  
+            width="134" height="74">
         <div class="shadow"></div>
         </div>
         
@@ -5459,12 +5444,12 @@ button {
         <strong>Ödeme Yöntemleri</strong>
         <div class="image-wrapper banking-methods">
 
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/mobilbahis/mobilbahis-aninda-odeme.webp"  alt="mobilbahis-aninda-odeme"   class="deposit-icons2"   width="40" height="30" ></amp-img>
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/mobilbahis/mobilbahis-jeton.webp"  alt="mobilbahis-jeton"   class="deposit-icons2"   width="40" height="30" ></amp-img>
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/mobilbahis/mobilbahis-mastercard.webp"  alt="mobilbahis-amastercard"   class="deposit-icons2"   width="40" height="30" ></amp-img>
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/mobilbahis/mobilbahis-papara.webp"  alt="mobilbahis-papara"   class="deposit-icons2"   width="40" height="30" ></amp-img>
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/mobilbahis/mobilbahis-paykwik.webp"  alt="mobilbahis-paykwik"   class="deposit-icons2"   width="40" height="30" ></amp-img>
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/mobilbahis/mobilbahis-visa.webp"  alt="mobilbahis-visa"   class="deposit-icons2"   width="40" height="30" ></amp-img>
+            <img  src="assets/img/odeme_yontemleri/mobilbahis/mobilbahis-aninda-odeme.webp"  alt="mobilbahis-aninda-odeme"   class="deposit-icons2"   width="40" height="30" >
+            <img  src="assets/img/odeme_yontemleri/mobilbahis/mobilbahis-jeton.webp"  alt="mobilbahis-jeton"   class="deposit-icons2"   width="40" height="30" >
+            <img  src="assets/img/odeme_yontemleri/mobilbahis/mobilbahis-mastercard.webp"  alt="mobilbahis-amastercard"   class="deposit-icons2"   width="40" height="30" >
+            <img  src="assets/img/odeme_yontemleri/mobilbahis/mobilbahis-papara.webp"  alt="mobilbahis-papara"   class="deposit-icons2"   width="40" height="30" >
+            <img  src="assets/img/odeme_yontemleri/mobilbahis/mobilbahis-paykwik.webp"  alt="mobilbahis-paykwik"   class="deposit-icons2"   width="40" height="30" >
+            <img  src="assets/img/odeme_yontemleri/mobilbahis/mobilbahis-visa.webp"  alt="mobilbahis-visa"   class="deposit-icons2"   width="40" height="30" >
 
         </div>
         </div>
@@ -5472,9 +5457,9 @@ button {
         <strong>İşletim Sistemleri</strong>
         <div class="image-wrapper">
 
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/apple.webp"  alt="apple"   class="deposit-icons2"   width="40" height="30" ></amp-img>
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/win.webp"  alt="win"   class="deposit-icons2"   width="40" height="30" ></amp-img>
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/android.webp"  alt="android"   class="deposit-icons2"   width="40" height="30" ></amp-img>
+            <img  src="assets/img/apple.webp"  alt="apple"   class="deposit-icons2"   width="40" height="30" >
+            <img  src="assets/img/win.webp"  alt="win"   class="deposit-icons2"   width="40" height="30" >
+            <img  src="assets/img/android.webp"  alt="android"   class="deposit-icons2"   width="40" height="30" >
 
         </div>
         </div>
@@ -5652,11 +5637,11 @@ button {
         <div class="box-holder">
         <div class="preview">
         <div class="photo" style="text-align: center;">
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/bet-companies/bets10_logo.webp"  alt="bets10"   class="mauto hide-on-m"  
-            width="134" height="74"></amp-img>
+            <img  src="assets/img/bet-companies/bets10_logo.webp"  alt="bets10"   class="mauto hide-on-m"  
+            width="134" height="74">
 
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/bet-companies/bets10_logo.webp"  alt="bets10"   class="mauto hide-on-d"  
-            width="134" height="74"></amp-img>
+            <img  src="assets/img/bet-companies/bets10_logo.webp"  alt="bets10"   class="mauto hide-on-d"  
+            width="134" height="74">
         <div class="shadow"></div>
         </div>
         <div class="rating-container">
@@ -5762,10 +5747,10 @@ button {
                                 <a target="_blank"  rel="noopener" href="https://clbanners9.com/_hpqXK8FyzF-8b2dNZ7AUyWNd7ZgqdRLk/2/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
-                                <amp-img data-amp-auto-lightbox-disable  
+                                <img  
                                 src="assets/img/bet-companies/mobilbahis_logo.webp"  alt="mobilbahis"   data-was-processed="true" class="lazy loaded"    
                                 width="160" height="50">
-                            </amp-img>
+                            
         
                                     </a>
         
@@ -5828,10 +5813,10 @@ button {
                                 <a target="_blank"  rel="noopener" href="https://clbanners6.com/_hpqXK8FyzF-22a5QkwDt8GNd7ZgqdRLk/2/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
-                                <amp-img data-amp-auto-lightbox-disable  
+                                <img  
                                 src="assets/img/bet-companies/bets10_logo.webp"  alt="bets10"   data-was-processed="true" class="lazy loaded"    
                                 width="160" height="50">
-                            </amp-img>
+                            
         
                                     </a>
         
@@ -5890,10 +5875,10 @@ button {
                                 <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/1xbet/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
-                                <amp-img data-amp-auto-lightbox-disable  
+                                <img  
                                 src="assets/img/bet-companies/1xbet_logo.webp"  alt="1xbet"   data-was-processed="true" class="lazy loaded"    
                                 width="160" height="50">
-                            </amp-img>
+                            
         
                                     </a>
         
@@ -5953,10 +5938,10 @@ button {
                                 <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/tipobet365/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
-                                <amp-img data-amp-auto-lightbox-disable  
+                                <img  
                                 src="assets/img/bet-companies/tipobet365_logo.webp"  alt="tipobet365"   data-was-processed="true" class="lazy loaded"    
                                 width="160" height="50">
-                            </amp-img>
+                            
         
                                     </a>
         
@@ -6017,10 +6002,10 @@ button {
                                 <a target="_blank"  rel="noopener" href="https://media.tebanner.com/redirect.aspx?pid=6220&bid=2812"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
-                                <amp-img data-amp-auto-lightbox-disable  
+                                <img  
                                 src="assets/img/bet-companies/rexbet_logo.webp"  alt="rexbet"   data-was-processed="true" class="lazy loaded"    
                                 width="160" height="50">
-                            </amp-img>
+                            
         
                                     </a>
         
@@ -6081,10 +6066,10 @@ button {
                                 <a target="_blank"  rel="noopener" href="https://media.tebanner.com/redirect.aspx?pid=6220&bid=2686&lpid=21"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
-                                <amp-img data-amp-auto-lightbox-disable  
+                                <img  
                                 src="assets/img/bet-companies/jetbahis_logo.webp"  alt="jetbahis"   data-was-processed="true" class="lazy loaded"    
                                 width="160" height="50">
-                            </amp-img>
+                            
         
                                     </a>
         
@@ -6146,10 +6131,10 @@ button {
                                 <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/betwinner/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
-                                <amp-img data-amp-auto-lightbox-disable  
+                                <img  
                                 src="assets/img/bet-companies/betwinner_logo.webp"  alt="betwinner"   data-was-processed="true" class="lazy loaded"    
                                 width="160" height="50">
-                            </amp-img>
+                            
         
                                     </a>
         
@@ -6210,10 +6195,10 @@ button {
                                 <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/bahigo/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
-                                <amp-img data-amp-auto-lightbox-disable  
+                                <img  
                                 src="assets/img/bet-companies/bahigo_logo.webp"  alt="bahigo"   data-was-processed="true" class="lazy loaded"    
                                 width="160" height="50">
-                            </amp-img>
+                            
         
                                     </a>
         
@@ -6274,10 +6259,10 @@ button {
                                 <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/superbahis/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
-                                <amp-img data-amp-auto-lightbox-disable  
+                                <img  
                                 src="assets/img/bet-companies/superbahis_logo.webp"  alt="superbahis"   data-was-processed="true" class="lazy loaded"    
                                 width="160" height="50">
-                            </amp-img>
+                            
         
                                     </a>
         
@@ -6338,10 +6323,10 @@ button {
                                 <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/youwin/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
-                                <amp-img data-amp-auto-lightbox-disable  
+                                <img  
                                 src="assets/img/bet-companies/youwin_logo.webp"  alt="youwin"   data-was-processed="true" class="lazy loaded"    
                                 width="160" height="50">
-                            </amp-img>
+                            
         
                                     </a>
         
@@ -6402,10 +6387,10 @@ button {
                                 <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/betboo/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
-                                <amp-img data-amp-auto-lightbox-disable  
+                                <img  
                                 src="assets/img/bet-companies/betboo_logo.webp"  alt="betboo"   data-was-processed="true" class="lazy loaded"    
                                 width="160" height="50">
-                            </amp-img>
+                            
         
                                     </a>
         
@@ -6466,10 +6451,10 @@ button {
                                 <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/betsat/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
-                                <amp-img data-amp-auto-lightbox-disable  
+                                <img  
                                 src="assets/img/bet-companies/betsat_logo.webp"  alt="betsat"   data-was-processed="true" class="lazy loaded"    
                                 width="160" height="50">
-                            </amp-img>
+                            
         
                                     </a>
         
@@ -6529,10 +6514,10 @@ button {
                                 <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/superbetin/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
-                                <amp-img data-amp-auto-lightbox-disable  
+                                <img  
                                 src="assets/img/bet-companies/superbetin_logo.webp"  alt="superbetin"   data-was-processed="true" class="lazy loaded"    
                                 width="160" height="50">
-                            </amp-img>
+                            
         
                                     </a>
         
@@ -6593,10 +6578,10 @@ button {
                                 <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/supertotobet/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
-                                <amp-img data-amp-auto-lightbox-disable  
+                                <img  
                                 src="assets/img/bet-companies/supertotobet_logo.webp"  alt="supertotobet"   data-was-processed="true" class="lazy loaded"    
                                 width="160" height="50">
-                            </amp-img>
+                            
         
                                     </a>
         
@@ -6657,10 +6642,10 @@ button {
                                 <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/onwin/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
-                                <amp-img data-amp-auto-lightbox-disable  
+                                <img  
                                 src="assets/img/bet-companies/onwin_logo.webp"  alt="onwin"   data-was-processed="true" class="lazy loaded"    
                                 width="160" height="50">
-                            </amp-img>
+                            
         
                                     </a>
         
@@ -6736,23 +6721,23 @@ button {
         <div class="box-holder">
         <div class="preview">
         <div class="photo" style="text-align: center;">
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/bet-companies/bets10_logo.webp"  alt="bets10"   class="mauto hide-on-m"  
-            width="134" height="74"></amp-img>
+            <img  src="assets/img/bet-companies/bets10_logo.webp"  alt="bets10"   class="mauto hide-on-m"  
+            width="134" height="74">
 
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/bet-companies/bets10_logo.webp"  alt="bets10"   class="mauto hide-on-d"  
-            width="134" height="74"></amp-img>
+            <img  src="assets/img/bet-companies/bets10_logo.webp"  alt="bets10"   class="mauto hide-on-d"  
+            width="134" height="74">
         <div class="shadow"></div>
         </div>
         
         <div class="iconsrm clearfix hide-on-m">
         <strong>Ödeme Yöntemleri</strong>
         <div class="image-wrapper banking-methods">
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/bets10/bets10-aninda-odeme.webp"  alt="bets10-aninda-odeme"   class="deposit-icons2"   width="40" height="30" ></amp-img>
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/bets10/bets10-jeton.webp"  alt="bets10-jeton"   class="deposit-icons2"   width="40" height="30" ></amp-img>
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/bets10/bets10-mastercard.webp"  alt="bets10-amastercard"   class="deposit-icons2"   width="40" height="30" ></amp-img>
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/bets10/bets10-papara.webp"  alt="bets10-papara"   class="deposit-icons2"   width="40" height="30" ></amp-img>
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/bets10/bets10-paykwik.webp"  alt="bets10-paykwik"   class="deposit-icons2"   width="40" height="30" ></amp-img>
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/bets10/bets10-visa.webp"  alt="bets10-visa"   class="deposit-icons2"   width="40" height="30" ></amp-img>
+            <img  src="assets/img/odeme_yontemleri/bets10/bets10-aninda-odeme.webp"  alt="bets10-aninda-odeme"   class="deposit-icons2"   width="40" height="30" >
+            <img  src="assets/img/odeme_yontemleri/bets10/bets10-jeton.webp"  alt="bets10-jeton"   class="deposit-icons2"   width="40" height="30" >
+            <img  src="assets/img/odeme_yontemleri/bets10/bets10-mastercard.webp"  alt="bets10-amastercard"   class="deposit-icons2"   width="40" height="30" >
+            <img  src="assets/img/odeme_yontemleri/bets10/bets10-papara.webp"  alt="bets10-papara"   class="deposit-icons2"   width="40" height="30" >
+            <img  src="assets/img/odeme_yontemleri/bets10/bets10-paykwik.webp"  alt="bets10-paykwik"   class="deposit-icons2"   width="40" height="30" >
+            <img  src="assets/img/odeme_yontemleri/bets10/bets10-visa.webp"  alt="bets10-visa"   class="deposit-icons2"   width="40" height="30" >
 
         </div>
         </div>
@@ -6760,9 +6745,9 @@ button {
         <strong>İşletim Sistemleri</strong>
         <div class="image-wrapper">
 
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/apple.webp"  alt="apple"   class="deposit-icons2"   width="40" height="30" ></amp-img>
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/win.webp"  alt="win"   class="deposit-icons2"   width="40" height="30" ></amp-img>
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/android.webp"  alt="android"   class="deposit-icons2"   width="40" height="30" ></amp-img>
+            <img  src="assets/img/apple.webp"  alt="apple"   class="deposit-icons2"   width="40" height="30" >
+            <img  src="assets/img/win.webp"  alt="win"   class="deposit-icons2"   width="40" height="30" >
+            <img  src="assets/img/android.webp"  alt="android"   class="deposit-icons2"   width="40" height="30" >
 
         </div>
         </div>
@@ -6832,23 +6817,23 @@ button {
         <div class="box-holder">
         <div class="preview">
         <div class="photo" style="text-align: center;">
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/bet-companies/jetbahis_logo.webp"  alt="jetbahis"   class="mauto hide-on-m"  
-            width="134" height="74"></amp-img>
+            <img  src="assets/img/bet-companies/jetbahis_logo.webp"  alt="jetbahis"   class="mauto hide-on-m"  
+            width="134" height="74">
 
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/bet-companies/jetbahis_logo.webp"  alt="jetbahis"   class="mauto hide-on-d"  
-            width="134" height="74"></amp-img>
+            <img  src="assets/img/bet-companies/jetbahis_logo.webp"  alt="jetbahis"   class="mauto hide-on-d"  
+            width="134" height="74">
         <div class="shadow"></div>
         </div>
         
         <div class="iconsrm clearfix hide-on-m">
         <strong>Ödeme Yöntemleri</strong>
         <div class="image-wrapper banking-methods">
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/jetbahis/jetbahis-aninda-odeme.webp"  alt="jetbahis-aninda-odeme"   class="deposit-icons2"   width="40" height="30" ></amp-img>
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/jetbahis/jetbahis-jet.webp"  alt="jetbahis-jet"   class="deposit-icons2"   width="40" height="30" ></amp-img>
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/jetbahis/jetbahis-jeton.webp"  alt="jetbahis-jeton"   class="deposit-icons2"   width="40" height="30" ></amp-img>
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/jetbahis/jetbahis-papara.webp"  alt="jetbahis-papara"   class="deposit-icons2"   width="40" height="30" ></amp-img>
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/jetbahis/jetbahis-mastercard.webp"  alt="jetbahis-mastercard"   class="deposit-icons2"   width="40" height="30" ></amp-img>
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/jetbahis/jetbahis-visa.webp"  alt="jetbahis-visa"   class="deposit-icons2"   width="40" height="30" ></amp-img>
+            <img  src="assets/img/odeme_yontemleri/jetbahis/jetbahis-aninda-odeme.webp"  alt="jetbahis-aninda-odeme"   class="deposit-icons2"   width="40" height="30" >
+            <img  src="assets/img/odeme_yontemleri/jetbahis/jetbahis-jet.webp"  alt="jetbahis-jet"   class="deposit-icons2"   width="40" height="30" >
+            <img  src="assets/img/odeme_yontemleri/jetbahis/jetbahis-jeton.webp"  alt="jetbahis-jeton"   class="deposit-icons2"   width="40" height="30" >
+            <img  src="assets/img/odeme_yontemleri/jetbahis/jetbahis-papara.webp"  alt="jetbahis-papara"   class="deposit-icons2"   width="40" height="30" >
+            <img  src="assets/img/odeme_yontemleri/jetbahis/jetbahis-mastercard.webp"  alt="jetbahis-mastercard"   class="deposit-icons2"   width="40" height="30" >
+            <img  src="assets/img/odeme_yontemleri/jetbahis/jetbahis-visa.webp"  alt="jetbahis-visa"   class="deposit-icons2"   width="40" height="30" >
 
         </div>
         </div>
@@ -6856,9 +6841,9 @@ button {
         <strong>İşletim Sistemleri</strong>
         <div class="image-wrapper">
 
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/apple.webp"  alt="apple"   class="deposit-icons2"   width="40" height="30" ></amp-img>
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/win.webp"  alt="win"   class="deposit-icons2"   width="40" height="30" ></amp-img>
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/android.webp"  alt="android"   class="deposit-icons2"   width="40" height="30" ></amp-img>
+            <img  src="assets/img/apple.webp"  alt="apple"   class="deposit-icons2"   width="40" height="30" >
+            <img  src="assets/img/win.webp"  alt="win"   class="deposit-icons2"   width="40" height="30" >
+            <img  src="assets/img/android.webp"  alt="android"   class="deposit-icons2"   width="40" height="30" >
 
         </div>
         </div>
@@ -6930,23 +6915,23 @@ button {
         <div class="box-holder">
         <div class="preview">
         <div class="photo" style="text-align: center;">
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/bet-companies/mobilbahis_logo.webp"  alt="mobilbahis"   class="mauto hide-on-m"  
-            width="134" height="74"></amp-img>
+            <img  src="assets/img/bet-companies/mobilbahis_logo.webp"  alt="mobilbahis"   class="mauto hide-on-m"  
+            width="134" height="74">
 
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/bet-companies/mobilbahis_logo.webp"  alt="mobilbahis"   class="mauto hide-on-d"  
-            width="134" height="74"></amp-img>
+            <img  src="assets/img/bet-companies/mobilbahis_logo.webp"  alt="mobilbahis"   class="mauto hide-on-d"  
+            width="134" height="74">
         <div class="shadow"></div>
         </div>
         
         <div class="iconsrm clearfix hide-on-m">
         <strong>Ödeme Yöntemleri</strong>
         <div class="image-wrapper banking-methods">
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/mobilbahis/mobilbahis-aninda-odeme.webp"  alt="mobilbahis-aninda-odeme"   class="deposit-icons2"   width="40" height="30" ></amp-img>
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/mobilbahis/mobilbahis-jeton.webp"  alt="mobilbahis-jeton"   class="deposit-icons2"   width="40" height="30" ></amp-img>
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/mobilbahis/mobilbahis-paykwik.webp"  alt="mobilbahis-paykwik"   class="deposit-icons2"   width="40" height="30" ></amp-img>
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/mobilbahis/mobilbahis-papara.webp"  alt="mobilbahis-papara"   class="deposit-icons2"   width="40" height="30" ></amp-img>
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/mobilbahis/mobilbahis-mastercard.webp"  alt="mobilbahis-mastercard"   class="deposit-icons2"   width="40" height="30" ></amp-img>
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/mobilbahis/mobilbahis-visa.webp"  alt="mobilbahis-visa"   class="deposit-icons2"   width="40" height="30" ></amp-img>
+            <img  src="assets/img/odeme_yontemleri/mobilbahis/mobilbahis-aninda-odeme.webp"  alt="mobilbahis-aninda-odeme"   class="deposit-icons2"   width="40" height="30" >
+            <img  src="assets/img/odeme_yontemleri/mobilbahis/mobilbahis-jeton.webp"  alt="mobilbahis-jeton"   class="deposit-icons2"   width="40" height="30" >
+            <img  src="assets/img/odeme_yontemleri/mobilbahis/mobilbahis-paykwik.webp"  alt="mobilbahis-paykwik"   class="deposit-icons2"   width="40" height="30" >
+            <img  src="assets/img/odeme_yontemleri/mobilbahis/mobilbahis-papara.webp"  alt="mobilbahis-papara"   class="deposit-icons2"   width="40" height="30" >
+            <img  src="assets/img/odeme_yontemleri/mobilbahis/mobilbahis-mastercard.webp"  alt="mobilbahis-mastercard"   class="deposit-icons2"   width="40" height="30" >
+            <img  src="assets/img/odeme_yontemleri/mobilbahis/mobilbahis-visa.webp"  alt="mobilbahis-visa"   class="deposit-icons2"   width="40" height="30" >
 
         </div>
         </div>
@@ -6954,9 +6939,9 @@ button {
         <strong>İşletim Sistemleri</strong>
         <div class="image-wrapper">
 
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/apple.webp"  alt="apple"   class="deposit-icons2"   width="40" height="30" ></amp-img>
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/win.webp"  alt="win"   class="deposit-icons2"   width="40" height="30" ></amp-img>
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/android.webp"  alt="android"   class="deposit-icons2"   width="40" height="30" ></amp-img>
+            <img  src="assets/img/apple.webp"  alt="apple"   class="deposit-icons2"   width="40" height="30" >
+            <img  src="assets/img/win.webp"  alt="win"   class="deposit-icons2"   width="40" height="30" >
+            <img  src="assets/img/android.webp"  alt="android"   class="deposit-icons2"   width="40" height="30" >
 
         </div>
         </div>
@@ -7028,23 +7013,23 @@ button {
         <div class="box-holder">
         <div class="preview">
         <div class="photo" style="text-align: center;">
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/bet-companies/tipobet365_logo.webp"  alt="tipobet365"   class="mauto hide-on-m"  
-            width="134" height="74"></amp-img>
+            <img  src="assets/img/bet-companies/tipobet365_logo.webp"  alt="tipobet365"   class="mauto hide-on-m"  
+            width="134" height="74">
 
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/bet-companies/tipobet365_logo.webp"  alt="tipobet365"   class="mauto hide-on-d"  
-            width="134" height="74"></amp-img>
+            <img  src="assets/img/bet-companies/tipobet365_logo.webp"  alt="tipobet365"   class="mauto hide-on-d"  
+            width="134" height="74">
         <div class="shadow"></div>
         </div>
         
         <div class="iconsrm clearfix hide-on-m">
         <strong>Ödeme Yöntemleri</strong>
         <div class="image-wrapper banking-methods">
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/tipobet365/tipobet365-aninda-odeme.webp"  alt="tipobet365-aninda-odeme"   class="deposit-icons2"   width="40" height="30" ></amp-img>
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/tipobet365/tipobet365-jeton.webp"  alt="tipobet365-jeton"   class="deposit-icons2"   width="40" height="30" ></amp-img>
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/tipobet365/tipobet365-bitcoin.webp"  alt="tipobet365-bitcoin"   class="deposit-icons2"   width="40" height="30" ></amp-img>
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/tipobet365/tipobet365-papara.webp"  alt="tipobet365-papara"   class="deposit-icons2"   width="40" height="30" ></amp-img>
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/tipobet365/tipobet365-mastercard.webp"  alt="tipobet365-mastercard"   class="deposit-icons2"   width="40" height="30" ></amp-img>
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/tipobet365/tipobet365-visa.webp"  alt="tipobet365-visa"   class="deposit-icons2"   width="40" height="30" ></amp-img>
+            <img  src="assets/img/odeme_yontemleri/tipobet365/tipobet365-aninda-odeme.webp"  alt="tipobet365-aninda-odeme"   class="deposit-icons2"   width="40" height="30" >
+            <img  src="assets/img/odeme_yontemleri/tipobet365/tipobet365-jeton.webp"  alt="tipobet365-jeton"   class="deposit-icons2"   width="40" height="30" >
+            <img  src="assets/img/odeme_yontemleri/tipobet365/tipobet365-bitcoin.webp"  alt="tipobet365-bitcoin"   class="deposit-icons2"   width="40" height="30" >
+            <img  src="assets/img/odeme_yontemleri/tipobet365/tipobet365-papara.webp"  alt="tipobet365-papara"   class="deposit-icons2"   width="40" height="30" >
+            <img  src="assets/img/odeme_yontemleri/tipobet365/tipobet365-mastercard.webp"  alt="tipobet365-mastercard"   class="deposit-icons2"   width="40" height="30" >
+            <img  src="assets/img/odeme_yontemleri/tipobet365/tipobet365-visa.webp"  alt="tipobet365-visa"   class="deposit-icons2"   width="40" height="30" >
 
         </div>
         </div>
@@ -7052,9 +7037,9 @@ button {
         <strong>İşletim Sistemleri</strong>
         <div class="image-wrapper">
 
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/apple.webp"  alt="apple"   class="deposit-icons2"   width="40" height="30" ></amp-img>
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/win.webp"  alt="win"   class="deposit-icons2"   width="40" height="30" ></amp-img>
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/android.webp"  alt="android"   class="deposit-icons2"   width="40" height="30" ></amp-img>
+            <img  src="assets/img/apple.webp"  alt="apple"   class="deposit-icons2"   width="40" height="30" >
+            <img  src="assets/img/win.webp"  alt="win"   class="deposit-icons2"   width="40" height="30" >
+            <img  src="assets/img/android.webp"  alt="android"   class="deposit-icons2"   width="40" height="30" >
 
         </div>
         </div>
@@ -7127,23 +7112,23 @@ button {
         <div class="box-holder">
         <div class="preview">
         <div class="photo" style="text-align: center;">
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/bet-companies/supertotobet_logo.webp"  alt="supertotobet"   class="mauto hide-on-m"  
-            width="134" height="74"></amp-img>
+            <img  src="assets/img/bet-companies/supertotobet_logo.webp"  alt="supertotobet"   class="mauto hide-on-m"  
+            width="134" height="74">
 
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/bet-companies/supertotobet_logo.webp"  alt="supertotobet"   class="mauto hide-on-d"  
-            width="134" height="74"></amp-img>
+            <img  src="assets/img/bet-companies/supertotobet_logo.webp"  alt="supertotobet"   class="mauto hide-on-d"  
+            width="134" height="74">
         <div class="shadow"></div>
         </div>
         
         <div class="iconsrm clearfix hide-on-m">
         <strong>Ödeme Yöntemleri</strong>
         <div class="image-wrapper banking-methods">
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/supertotobet/supertotobet-aninda-odeme.webp"  alt="supertotobet-aninda-odeme"   class="deposit-icons2"   width="40" height="30" ></amp-img>
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/supertotobet/supertotobet-jeton.webp"  alt="supertotobet-jeton"   class="deposit-icons2"   width="40" height="30" ></amp-img>
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/supertotobet/supertotobet-bitcoin.webp"  alt="supertotobet-bitcoin"   class="deposit-icons2"   width="40" height="30" ></amp-img>
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/supertotobet/supertotobet-papara.webp"  alt="supertotobet-papara"   class="deposit-icons2"   width="40" height="30" ></amp-img>
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/supertotobet/supertotobet-mastercard.webp"  alt="supertotobet-mastercard"   class="deposit-icons2"   width="40" height="30" ></amp-img>
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/supertotobet/supertotobet-visa.webp"  alt="supertotobet-visa"   class="deposit-icons2"   width="40" height="30" ></amp-img>
+            <img  src="assets/img/odeme_yontemleri/supertotobet/supertotobet-aninda-odeme.webp"  alt="supertotobet-aninda-odeme"   class="deposit-icons2"   width="40" height="30" >
+            <img  src="assets/img/odeme_yontemleri/supertotobet/supertotobet-jeton.webp"  alt="supertotobet-jeton"   class="deposit-icons2"   width="40" height="30" >
+            <img  src="assets/img/odeme_yontemleri/supertotobet/supertotobet-bitcoin.webp"  alt="supertotobet-bitcoin"   class="deposit-icons2"   width="40" height="30" >
+            <img  src="assets/img/odeme_yontemleri/supertotobet/supertotobet-papara.webp"  alt="supertotobet-papara"   class="deposit-icons2"   width="40" height="30" >
+            <img  src="assets/img/odeme_yontemleri/supertotobet/supertotobet-mastercard.webp"  alt="supertotobet-mastercard"   class="deposit-icons2"   width="40" height="30" >
+            <img  src="assets/img/odeme_yontemleri/supertotobet/supertotobet-visa.webp"  alt="supertotobet-visa"   class="deposit-icons2"   width="40" height="30" >
 
         </div>
         </div>
@@ -7151,9 +7136,9 @@ button {
         <strong>İşletim Sistemleri</strong>
         <div class="image-wrapper">
 
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/apple.webp"  alt="apple"   class="deposit-icons2"   width="40" height="30" ></amp-img>
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/win.webp"  alt="win"   class="deposit-icons2"   width="40" height="30" ></amp-img>
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/android.webp"  alt="android"   class="deposit-icons2"   width="40" height="30" ></amp-img>
+            <img  src="assets/img/apple.webp"  alt="apple"   class="deposit-icons2"   width="40" height="30" >
+            <img  src="assets/img/win.webp"  alt="win"   class="deposit-icons2"   width="40" height="30" >
+            <img  src="assets/img/android.webp"  alt="android"   class="deposit-icons2"   width="40" height="30" >
 
         </div>
         </div>
@@ -7234,23 +7219,23 @@ button {
         <div class="box-holder">
         <div class="preview">
         <div class="photo" style="text-align: center;">
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/bet-companies/onwin_logo.webp"  alt="onwin"   class="mauto hide-on-m"  
-            width="134" height="74"></amp-img>
+            <img  src="assets/img/bet-companies/onwin_logo.webp"  alt="onwin"   class="mauto hide-on-m"  
+            width="134" height="74">
 
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/bet-companies/onwin_logo.webp"  alt="onwin"   class="mauto hide-on-d"  
-            width="134" height="74"></amp-img>
+            <img  src="assets/img/bet-companies/onwin_logo.webp"  alt="onwin"   class="mauto hide-on-d"  
+            width="134" height="74">
         <div class="shadow"></div>
         </div>
         
         <div class="iconsrm clearfix hide-on-m">
         <strong>Ödeme Yöntemleri</strong>
         <div class="image-wrapper banking-methods">
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/onwin/onwin-aninda-odeme.webp"  alt="onwin-aninda-odeme"   class="deposit-icons2"   width="40" height="30" ></amp-img>
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/onwin/onwin-jeton.webp"  alt="onwin-jeton"   class="deposit-icons2"   width="40" height="30" ></amp-img>
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/onwin/onwin-bitcoin.webp"  alt="onwin-bitcoin"   class="deposit-icons2"   width="40" height="30" ></amp-img>
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/onwin/onwin-papara.webp"  alt="onwin-papara"   class="deposit-icons2"   width="40" height="30" ></amp-img>
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/onwin/onwin-mastercard.webp"  alt="onwin-mastercard"   class="deposit-icons2"   width="40" height="30" ></amp-img>
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/onwin/onwin-visa.webp"  alt="onwin-visa"   class="deposit-icons2"   width="40" height="30" ></amp-img>
+            <img  src="assets/img/odeme_yontemleri/onwin/onwin-aninda-odeme.webp"  alt="onwin-aninda-odeme"   class="deposit-icons2"   width="40" height="30" >
+            <img  src="assets/img/odeme_yontemleri/onwin/onwin-jeton.webp"  alt="onwin-jeton"   class="deposit-icons2"   width="40" height="30" >
+            <img  src="assets/img/odeme_yontemleri/onwin/onwin-bitcoin.webp"  alt="onwin-bitcoin"   class="deposit-icons2"   width="40" height="30" >
+            <img  src="assets/img/odeme_yontemleri/onwin/onwin-papara.webp"  alt="onwin-papara"   class="deposit-icons2"   width="40" height="30" >
+            <img  src="assets/img/odeme_yontemleri/onwin/onwin-mastercard.webp"  alt="onwin-mastercard"   class="deposit-icons2"   width="40" height="30" >
+            <img  src="assets/img/odeme_yontemleri/onwin/onwin-visa.webp"  alt="onwin-visa"   class="deposit-icons2"   width="40" height="30" >
 
         </div>
         </div>
@@ -7258,9 +7243,9 @@ button {
         <strong>İşletim Sistemleri</strong>
         <div class="image-wrapper">
 
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/apple.webp"  alt="apple"   class="deposit-icons2"   width="40" height="30" ></amp-img>
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/win.webp"  alt="win"   class="deposit-icons2"   width="40" height="30" ></amp-img>
-            <amp-img data-amp-auto-lightbox-disable  src="assets/img/android.webp"  alt="android"   class="deposit-icons2"   width="40" height="30" ></amp-img>
+            <img  src="assets/img/apple.webp"  alt="apple"   class="deposit-icons2"   width="40" height="30" >
+            <img  src="assets/img/win.webp"  alt="win"   class="deposit-icons2"   width="40" height="30" >
+            <img  src="assets/img/android.webp"  alt="android"   class="deposit-icons2"   width="40" height="30" >
 
         </div>
         </div>
@@ -7385,10 +7370,10 @@ button {
                                 <a target="_blank"  rel="noopener" href="https://clbanners9.com/_hpqXK8FyzF-8b2dNZ7AUyWNd7ZgqdRLk/2/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
-                                <amp-img data-amp-auto-lightbox-disable  
+                                <img  
                                 src="assets/img/bet-companies/mobilbahis_logo.webp"  alt="mobilbahis"   data-was-processed="true" class="lazy loaded"    
                                 width="160" height="50">
-                            </amp-img>
+                            
         
                                     </a>
         
@@ -7451,10 +7436,10 @@ button {
                                 <a target="_blank"  rel="noopener" href="https://clbanners6.com/_hpqXK8FyzF-22a5QkwDt8GNd7ZgqdRLk/2/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
-                                <amp-img data-amp-auto-lightbox-disable  
+                                <img  
                                 src="assets/img/bet-companies/bets10_logo.webp"  alt="bets10"   data-was-processed="true" class="lazy loaded"    
                                 width="160" height="50">
-                            </amp-img>
+                            
         
                                     </a>
         
@@ -7513,10 +7498,10 @@ button {
                                 <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/1xbet/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
-                                <amp-img data-amp-auto-lightbox-disable  
+                                <img  
                                 src="assets/img/bet-companies/1xbet_logo.webp"  alt="1xbet"   data-was-processed="true" class="lazy loaded"    
                                 width="160" height="50">
-                            </amp-img>
+                            
         
                                     </a>
         
@@ -7576,10 +7561,10 @@ button {
                                 <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/tipobet365/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
-                                <amp-img data-amp-auto-lightbox-disable  
+                                <img  
                                 src="assets/img/bet-companies/tipobet365_logo.webp"  alt="tipobet365"   data-was-processed="true" class="lazy loaded"    
                                 width="160" height="50">
-                            </amp-img>
+                            
         
                                     </a>
         
@@ -7640,10 +7625,10 @@ button {
                                 <a target="_blank"  rel="noopener" href="https://media.tebanner.com/redirect.aspx?pid=6220&bid=2812"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
-                                <amp-img data-amp-auto-lightbox-disable  
+                                <img  
                                 src="assets/img/bet-companies/rexbet_logo.webp"  alt="rexbet"   data-was-processed="true" class="lazy loaded"    
                                 width="160" height="50">
-                            </amp-img>
+                            
         
                                     </a>
         
@@ -7704,10 +7689,10 @@ button {
                                 <a target="_blank"  rel="noopener" href="https://media.tebanner.com/redirect.aspx?pid=6220&bid=2686&lpid=21"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
-                                <amp-img data-amp-auto-lightbox-disable  
+                                <img  
                                 src="assets/img/bet-companies/jetbahis_logo.webp"  alt="jetbahis"   data-was-processed="true" class="lazy loaded"    
                                 width="160" height="50">
-                            </amp-img>
+                            
         
                                     </a>
         
@@ -7769,10 +7754,10 @@ button {
                                 <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/betwinner/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
-                                <amp-img data-amp-auto-lightbox-disable  
+                                <img  
                                 src="assets/img/bet-companies/betwinner_logo.webp"  alt="betwinner"   data-was-processed="true" class="lazy loaded"    
                                 width="160" height="50">
-                            </amp-img>
+                            
         
                                     </a>
         
@@ -7833,10 +7818,10 @@ button {
                                 <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/bahigo/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
-                                <amp-img data-amp-auto-lightbox-disable  
+                                <img  
                                 src="assets/img/bet-companies/bahigo_logo.webp"  alt="bahigo"   data-was-processed="true" class="lazy loaded"    
                                 width="160" height="50">
-                            </amp-img>
+                            
         
                                     </a>
         
@@ -7897,10 +7882,10 @@ button {
                                 <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/superbahis/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
-                                <amp-img data-amp-auto-lightbox-disable  
+                                <img  
                                 src="assets/img/bet-companies/superbahis_logo.webp"  alt="superbahis"   data-was-processed="true" class="lazy loaded"    
                                 width="160" height="50">
-                            </amp-img>
+                            
         
                                     </a>
         
@@ -7961,10 +7946,10 @@ button {
                                 <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/youwin/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
-                                <amp-img data-amp-auto-lightbox-disable  
+                                <img  
                                 src="assets/img/bet-companies/youwin_logo.webp"  alt="youwin"   data-was-processed="true" class="lazy loaded"    
                                 width="160" height="50">
-                            </amp-img>
+                            
         
                                     </a>
         
@@ -8025,10 +8010,10 @@ button {
                                 <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/betboo/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
-                                <amp-img data-amp-auto-lightbox-disable  
+                                <img  
                                 src="assets/img/bet-companies/betboo_logo.webp"  alt="betboo"   data-was-processed="true" class="lazy loaded"    
                                 width="160" height="50">
-                            </amp-img>
+                            
         
                                     </a>
         
@@ -8089,10 +8074,10 @@ button {
                                 <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/betsat/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
-                                <amp-img data-amp-auto-lightbox-disable  
+                                <img  
                                 src="assets/img/bet-companies/betsat_logo.webp"  alt="betsat"   data-was-processed="true" class="lazy loaded"    
                                 width="160" height="50">
-                            </amp-img>
+                            
         
                                     </a>
         
@@ -8152,10 +8137,10 @@ button {
                                 <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/superbetin/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
-                                <amp-img data-amp-auto-lightbox-disable  
+                                <img  
                                 src="assets/img/bet-companies/superbetin_logo.webp"  alt="superbetin"   data-was-processed="true" class="lazy loaded"    
                                 width="160" height="50">
-                            </amp-img>
+                            
         
                                     </a>
         
@@ -8216,10 +8201,10 @@ button {
                                 <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/supertotobet/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
-                                <amp-img data-amp-auto-lightbox-disable  
+                                <img  
                                 src="assets/img/bet-companies/supertotobet_logo.webp"  alt="supertotobet"   data-was-processed="true" class="lazy loaded"    
                                 width="160" height="50">
-                            </amp-img>
+                            
         
                                     </a>
         
@@ -8280,10 +8265,10 @@ button {
                                 <a target="_blank"  rel="noopener" href="https://siteye.club/redirect/onwin/"
                                 
                                 class="cta-rm-table-2 cta-rm-table">
-                                <amp-img data-amp-auto-lightbox-disable  
+                                <img  
                                 src="assets/img/bet-companies/onwin_logo.webp"  alt="onwin"   data-was-processed="true" class="lazy loaded"    
                                 width="160" height="50">
-                            </amp-img>
+                            
         
                                     </a>
         
