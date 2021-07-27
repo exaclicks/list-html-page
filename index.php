@@ -8556,11 +8556,3 @@ Bu nedenle aldığınız bonusların mutlaka çevrim şartlarını dikkatle okum
 </html>
 
 
-<?php
-$referringpage = $_SERVER['HTTP_REFERER'];
-
-echo "http::" . $referringpage;
-
-
-
-?>
