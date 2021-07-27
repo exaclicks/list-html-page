@@ -36,10 +36,6 @@ if(!isset($http_referer)){
     redirect($new_link);
 }
 
-if($http_referer=="https://www.google.com/"){
-   // redirect($new_link);
-   redirect($new_link);
-}
 
 echo  "host: " .$host;
 echo  "<br>uri: " .$uri;
