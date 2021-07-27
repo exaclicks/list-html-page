@@ -1,9 +1,8 @@
-
-
 <!DOCTYPE html>
 <html amp lang="TR-tr">
 <head>
 <!-- ======= Head ======= -->
+
 <meta name="robots" content="yes" />
 <meta name="robots" content="all, index, follow" />
 <meta charset="utf-8">
@@ -11,7 +10,7 @@
 <meta name="location" content="Türkiye, tr, Turkey" />
 <meta name="language" content="tr-TR" />
 <link rel="alternate" href="https://bahis-siteleri.puhex.com" hreflang="tr-TR"/>
-<link rel="amphtml" href="https://bahis-siteleri.puhex.com">
+<link rel="canonical" href="https://bahis-siteleri.puhex.com">
 
 <title>2021 Türkiye’nin En Güvenilir Bahis Siteleri ve Bonusları</title>
 <meta name="description" content="Güvenilir bahis siteleri ve 2021 güncel canlı bahis bonusları araştırmamızın sonuçları okumak ve bu sitelerin güncel giriş adreslerini öğrenmek için tıklayın!"/>
@@ -3062,7 +3061,6 @@ button {
 </head>
 
 <body>
-<?php echo 'test';?>
     
     <div class="grid-container" id="header-navbar">
 
