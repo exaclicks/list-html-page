@@ -1,7 +1,7 @@
 
 
 <!DOCTYPE html>
-<html amp lang="TR-tr">
+<html lang="TR-tr">
 <head>
 <!-- ======= Head ======= -->
 <meta name="robots" content="yes" />
