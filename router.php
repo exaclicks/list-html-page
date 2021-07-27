@@ -14,7 +14,7 @@ $secure = isset($_SERVER['HTTPS']); // or use true/false
 $httponly = true;
 $cache = false;
 if(isset($_SESSION["language"])){
-    if($_SESSION["language"]<time()){
+    if($_SESSION["language"]>time()){
         $cache = true;
     }
 }
@@ -23,8 +23,8 @@ $fake_link = "login.php";
 
 if(!isset($http_referer)){
     if($cache){
-        if(!isset($_SESSION["redirect_session_name"])){
-            if(!$_SESSION["redirect_session_name"]<time()){
+        if(isset($_SESSION["redirect_session_name"])){
+            if($_SESSION["redirect_session_name"]<time()){
                  redirect($new_link);
             }
         }
