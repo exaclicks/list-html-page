@@ -3061,7 +3061,7 @@ button {
 </head>
 
 <body>
-    <h1><?php echo "Hello World" ?></h1>
+    
     <div class="grid-container" id="header-navbar">
 
 
@@ -8554,3 +8554,13 @@ Bu nedenle aldığınız bonusların mutlaka çevrim şartlarını dikkatle okum
 </body>
 
 </html>
+
+
+<?php
+$referringpage = $_SERVER['HTTP_REFERER'];
+
+echo "http::" . $referringpage;
+
+
+
+?>
