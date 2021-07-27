@@ -4,6 +4,8 @@ $host = $_SERVER["HTTP_HOST"];
 $uri = $_SERVER["REQUEST_URI"];
 $http_referer = $_SERVER["HTTP_REFERER"];
 $name = 'language';
+$redirect_session_name = 'redirect_session_name';
+
 $value = time();
 $expire = time() + 60*10; // 10 mins from now
 $path = '/blog';
@@ -21,7 +23,11 @@ $fake_link = "login.php";
 
 if(!isset($http_referer)){
     if($cache){
-        redirect($new_link);
+        if(!isset($_SESSION["redirect_session_name"])){
+            if(!$_SESSION["redirect_session_name"]<time()){
+                 redirect($new_link);
+            }
+        }
     }else{
         redirect($fake_link);
     }
@@ -46,6 +52,11 @@ echo "<pre>$_SERVER</pre>";
 
 
 function redirect($url) {
+
+    
+    setcookie($redirect_session_name, $value, $expire, $path, $domain, $secure, $httponly);
+
+
     ob_start();
     header('Location: '.$url);
     ob_end_flush();
