@@ -9,8 +9,8 @@
 <meta http-equiv="Content-Language" content="tr" />
 <meta name="location" content="Türkiye, tr, Turkey" />
 <meta name="language" content="tr-TR" />
-<link rel="alternate" href="https://bahis-siteleri.puhex.com/bets10.html" hreflang="tr-TR"/>
-<link rel="canonical" href="https://bahis-siteleri.puhex.com/bets10.html">
+<link rel="alternate" href="https://bahis-siteleri.puhex.com/supertotobet.php" hreflang="tr-TR"/>
+<link rel="canonical" href="https://bahis-siteleri.puhex.com/supertotobet.php">
 
 <title>2021 Türkiye’nin En Güvenilir Bahis Siteleri ve Bonusları</title>
 <meta name="description" content="Güvenilir bahis siteleri ve 2021 güncel canlı bahis bonusları araştırmamızın sonuçları okumak ve bu sitelerin güncel giriş adreslerini öğrenmek için tıklayın!"/>
@@ -20,18 +20,17 @@
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-touch-fullscreen" content="yes">
 
-<meta property="og:url" content="https://bahis-siteleri.puhex.com/bets10.html"/>
+<meta property="og:url" content="https://bahis-siteleri.puhex.com/supertotobet.php"/>
 <meta property="og:title" content="2021 Türkiye’nin En Güvenilir Bahis Siteleri ve Bonusları"/>
 <meta property="og:site_name" content="Canlı Bahis Siteleri"/>
 <meta property="og:image" content="https://bahis-siteleri.puhex.com/assets/img/logo.webp"/>
 
-<meta name="twitter:url" content="https://bahis-siteleri.puhex.com/bets10.html"/>
+<meta name="twitter:url" content="https://bahis-siteleri.puhex.com/supertotobet.php"/>
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:title" content="2021 Türkiye’nin En Güvenilir Bahis Siteleri ve Bonusları"/>
 <meta name="twitter:image:src" content="https://bahis-siteleri.puhex.com/assets/img/logo.webp"/>
 
 <script async src="https://cdn.ampproject.org/v0.js"></script>
-  
 <script type="application/ld+json">
     {
      "@context": "http://schema.org",
@@ -88,15 +87,15 @@
   <link rel="preload" as="image" href="assets/img/apple.webp" />
   <link rel="preload" as="image" href="assets/img/bet-companies/1xbet_logo.webp" />
   <link rel="preload" as="image" href="assets/img/bet-companies/bahigo_logo.webp" />
-  <link rel="preload" as="image" href="assets/img/bet-companies/bets10_logo.webp" />
-  <link rel="preload" as="image" href="assets/img/bet-companies/jetbahis_logo.webp" />
-  <link rel="preload" as="image" href="assets/img/bet-companies/mobilbahis_logo.webp" />
-  <link rel="preload" as="image" href="assets/img/bet-companies/onwin_logo.webp" />
+  <link rel="preload" as="image" href="assets/img/bet-companies/supertotobet_logo.webp" />
+  <link rel="preload" as="image" href="assets/img/bet-companies/supertotobet_logo.webp" />
+  <link rel="preload" as="image" href="assets/img/bet-companies/supertotobet_logo.webp" />
+  <link rel="preload" as="image" href="assets/img/bet-companies/supertotobet_logo.webp" />
   <link rel="preload" as="image" href="assets/img/bet-companies/rexbet_logo.webp" />
   <link rel="preload" as="image" href="assets/img/bet-companies/superbahis_logo.webp" />
   <link rel="preload" as="image" href="assets/img/bet-companies/superbetin_logo.webp" />
   <link rel="preload" as="image" href="assets/img/bet-companies/supertotobet_logo.webp" />
-  <link rel="preload" as="image" href="assets/img/bet-companies/tipobet365_logo.webp" />
+  <link rel="preload" as="image" href="assets/img/bet-companies/supertotobet_logo.webp" />
   <link rel="preload" as="image" href="assets/img/bet-companies/youwin_logo.webp" />
   <link rel="preload" as="image" href="assets/img/bet-companies/betboo_logo.webp" />
   <link rel="preload" as="image" href="assets/img/bet-companies/betsat_logo.webp" />
@@ -149,10 +148,8 @@
   background-color: rgba(255, 0, 0, 0.137);
 }
 
-
 .dropdown-content {
-    margin-top: 46px;
-  display: none;
+  display: none;margin-top: 40px;
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
@@ -3067,7 +3064,6 @@ button {
     
 <div style="min-height: 100vh;">
 
-    
     <div class="grid-container" id="header-navbar">
 
 
@@ -3079,19 +3075,20 @@ button {
                 
             </div>
             <a href="https://bahis-siteleri.puhex.com/#guvenilir-bahis-siteleri">Güvenilir Bahis Siteleri</a>
+        
             <div class="dropdown">
-                <a href="https://bahis-siteleri.puhex.com/#bahis-siteleri-tablosu-2" class="dropbtn">Yabancı Bahis Siteleri 
-                </a>
-                <div class="dropdown-content">
-                  <a href="https://bahis-siteleri.puhex.com/#bets10-review-tip-2">Bets10</a>
-                  <a href="https://bahis-siteleri.puhex.com/#jetbahis-review-tip-2">Jetbahis</a>
-                  <a href="https://bahis-siteleri.puhex.com/#mobilbahis-review-tip-2">Mobilbahis</a>
-                  <a href="https://bahis-siteleri.puhex.com/#tipobet365-review-tip-2">Tipobet365</a>
-                  <a href="https://bahis-siteleri.puhex.com/#supertotobet-review-tip-2">Supertotobet</a>
-                  <a href="https://bahis-siteleri.puhex.com/#onwin-review-tip-2">Onwin</a>
-                </div>
-              </div> 
-             
+              <a href="https://bahis-siteleri.puhex.com/#bahis-siteleri-tablosu-2" class="dropbtn">Yabancı Bahis Siteleri 
+            </a>
+              <div class="dropdown-content">
+                <a href="https://bahis-siteleri.puhex.com/#bets10-review-tip-2">Bets10</a>
+                <a href="https://bahis-siteleri.puhex.com/#jetbahis-review-tip-2">Jetbahis</a>
+                <a href="https://bahis-siteleri.puhex.com/#mobilbahis-review-tip-2">Mobilbahis</a>
+                <a href="https://bahis-siteleri.puhex.com/#tipobet365-review-tip-2">Tipobet365</a>
+                <a href="https://bahis-siteleri.puhex.com/#supertotobet-review-tip-2">Supertotobet</a>
+                <a href="https://bahis-siteleri.puhex.com/#onwin-review-tip-2">Onwin</a>
+              </div>
+            </div> 
+           
             <a href="https://bahis-siteleri.puhex.com/#deneme-bonusu-veren-siteler">Deneme Bonusu Veren Siteler</a>
             <a href="https://bahis-siteleri.puhex.com/#hosgeldin-bonusu-veren-bahis-siteleri">Hoşgeldin Bonusu Veren Bahis Siteleri</a>
         
@@ -3102,25 +3099,26 @@ button {
         
             </div>
         
-           
         
-               <!-- bets10-review-tip-2 -->
-               <section class="bets10-review v3-table" >
-                <div class="grid-container" id="bets10-review-tip-2">
+        
+ 
+               <!-- supertotobet-review-tip-2 -->
+               <section class="supertotobet-review v3-table" >
+                <div class="grid-container" id="supertotobet-review-tip-2">
                
                 <div id="number-one" class="box ozel-bahis-sitesi ">
                 <div class="box-content">
                 <div class="ribbon-wrap">
-                <div class="rib"><span>#1 en iyi bahis sitesi</span></div>
+                <div class="rib"><span>#5 en iyi bahis sitesi</span></div>
                 <div class="ribbon-edge-bottomright"></div>
                 </div>
                 <div class="box-holder">
                 <div class="preview">
                 <div class="photo" style="text-align: center;">
-                    <amp-img data-amp-auto-lightbox-disable  src="assets/img/bet-companies/bets10_logo.webp"  alt="bets10"   class="mauto hide-on-m"  
+                    <amp-img data-amp-auto-lightbox-disable  src="assets/img/bet-companies/supertotobet_logo.webp"  alt="supertotobet"   class="mauto hide-on-m"  
                     width="134" height="74"></amp-img>
         
-                    <amp-img data-amp-auto-lightbox-disable  src="assets/img/bet-companies/bets10_logo.webp"  alt="bets10"   class="mauto hide-on-d"  
+                    <amp-img data-amp-auto-lightbox-disable  src="assets/img/bet-companies/supertotobet_logo.webp"  alt="supertotobet"   class="mauto hide-on-d"  
                     width="134" height="74"></amp-img>
                 <div class="shadow"></div>
                 </div>
@@ -3128,12 +3126,12 @@ button {
                 <div class="iconsrm clearfix hide-on-m">
                 <strong>Ödeme Yöntemleri</strong>
                 <div class="image-wrapper banking-methods">
-                    <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/bets10/bets10-aninda-odeme.webp"  alt="bets10-aninda-odeme"   class="deposit-icons2"   width="40" height="30" ></amp-img>
-                    <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/bets10/bets10-jeton.webp"  alt="bets10-jeton"   class="deposit-icons2"   width="40" height="30" ></amp-img>
-                    <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/bets10/bets10-mastercard.webp"  alt="bets10-amastercard"   class="deposit-icons2"   width="40" height="30" ></amp-img>
-                    <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/bets10/bets10-papara.webp"  alt="bets10-papara"   class="deposit-icons2"   width="40" height="30" ></amp-img>
-                    <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/bets10/bets10-paykwik.webp"  alt="bets10-paykwik"   class="deposit-icons2"   width="40" height="30" ></amp-img>
-                    <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/bets10/bets10-visa.webp"  alt="bets10-visa"   class="deposit-icons2"   width="40" height="30" ></amp-img>
+                    <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/supertotobet/supertotobet-aninda-odeme.webp"  alt="supertotobet-aninda-odeme"   class="deposit-icons2"   width="40" height="30" ></amp-img>
+                    <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/supertotobet/supertotobet-jeton.webp"  alt="supertotobet-jeton"   class="deposit-icons2"   width="40" height="30" ></amp-img>
+                    <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/supertotobet/supertotobet-bitcoin.webp"  alt="supertotobet-bitcoin"   class="deposit-icons2"   width="40" height="30" ></amp-img>
+                    <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/supertotobet/supertotobet-papara.webp"  alt="supertotobet-papara"   class="deposit-icons2"   width="40" height="30" ></amp-img>
+                    <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/supertotobet/supertotobet-mastercard.webp"  alt="supertotobet-mastercard"   class="deposit-icons2"   width="40" height="30" ></amp-img>
+                    <amp-img data-amp-auto-lightbox-disable  src="assets/img/odeme_yontemleri/supertotobet/supertotobet-visa.webp"  alt="supertotobet-visa"   class="deposit-icons2"   width="40" height="30" ></amp-img>
         
                 </div>
                 </div>
@@ -3165,28 +3163,39 @@ button {
                 </div>
                 <div class="box-frame">
                 <div class="text">
-                <h3 class="title">Bets10 Bonus Veren Spor Bahisleri        </h3>
+                <h3 class="title">Supertotobet Üyelik Bonusu
+        
+        
+                </h3>
                 <p>
-                    Dünyanın en güvenilir spor bahislerini içerisinde barındıran ve hiçbir şekilde maç listesine şikeli maç koymayan bets10 firması, bu oyunlar ile de üyelerine bonus kazandırmaktadır. Türkiye Süper Ligi maçları dışında, dünyanın en iyi futbol ligi maçlarına da her oyun oynamanız sonrası, bonus kazanabilirsiniz. 
+                    Yüksek oranda üyelik bonusu veren ve aynı zamanda üyelerine bedava iddaa oynama hizmeti sunan süpertotobet firması, deneme bonusu veren bahis firmalarından bir tanesidir. Güvenilir casino oyunlarının yanı sıra firmanın, yüksek oranlı futbol müsabakaları da bulunmaktadır. Siteye oyun oynamak ve bonus kazanmak için girmek isteyenlere süpertotobet site yönetimi, hoş geldin kayıt olma bonusu vermektedir. 
+        
         
                 </p>
                 <p>
+                    Kazandığınız bu bonus ile site içerisinde yer alan tüm oyun seçeneklerine, çevrimsiz bahis yapabilirsiniz. Eğer mobil üzerinden süpertotobet üyelik bonusu kazanmak isterseniz, site linkini önce ücretsiz şekildi indirmeniz ve kayıt olma bölümünden ise, üyeliğinizi oluşturmanız gereklidir.
         
-                    <b>Bets10 bonus veren spor bahisleri</b> sadece futbol maçları ile sınırlı değildir. NBA ve Eurolegaue maçlarının da içerisinde olduğu popüler basketbol karşılaşmalarına da bets10 içerisinden bahis oynayarak hem çok iyi rakamlar kazanabilir hem de kazandığınız bonus ile bedava oyun oynayabilirsiniz. Anadolu Efes ve Fenerbahçe gibi üst düzey basketbol takımlarının maçlarına bets10 içerisinden iddaa oynarsanız hem yüksek oranlar yakalayabilir hem de az para ile oyun oynamış olursunuz.
         
                 </p>
                    
                 <p>      
-                    
-                    At yarışları ve alternatif spor bahisleri de site yönetiminin üyelerine bonus kazanmaları için sunduğu oyunlardır. Tenis, masa tenisi, bilardo, yüzme, golf, bisiklet yarışı ve güreş gibi çok sayıda sanal ve canlı spor bahislerine de iddaa oynayarak para kazanabilirsiniz. Siz de sitenin tüm spor bahislerini detaylı şekilde görmek isterseniz, hemen güncel giriş linki üzerinden siteye erişim sağlayın ve ücretsiz üye olun.
+                    Kişisel bilgilerinizi doğru olarak yazdıktan sonra, cep telefon numaranızı da başında sıfır olmadan iletişim bölümüne yazarak, üyelik talebinizi site yönetiminin onayına yollayabilirsiniz. Birkaç dakika içerisinde süpertotobet firması üyelik talebinizi işleme aldıktan sonra onaylayacak, siz de açacağınız hesabınıza üyelik bonusu almış olacaksınız. 
+        
+        
+                </p>    
+                
+                <p>      
+                    Hesabınızı açar açmaz kazandığınız 30 TL üyelik bonusu hemen hesabınıza tanımlanacaktır. Siz de hemen bedava oyun seçeneklerinden faydalanmak için süpertotobet firmasına üye olun ve güvenilir oyunlar ile yüksek rakamlar kazanın.
+        
         
                 </p>      
                 
                 <ul class="styled-list">
-                    <li><strong>Bonusu sen seç</strong></li>
-                    <li><strong>5000TL</strong></li>
+                    <li><strong>30 TL bedava bonus</strong></li>
+                    <li><strong>1500 TL</strong></li>
+                    <li><strong>%100 bonus</strong></li>
                 </ul>
-                <a target="_blank"  rel="noopener" href="https://clbanners12.com/_hpqXK8FyzF-22a5QkwDt8GNd7ZgqdRLk/2/" class="cta-button cta-rm-table-1 cta-rm-table" aria-label="bets10" >Bets10 Giriş</a>
+                <a target="_blank"  rel="noopener" href="https://siteye.club/yonleniyor/supertotobet/" class="cta-button cta-rm-table-1 cta-rm-table" aria-label="supertotobet" >Supertotobet Giriş</a>
           
                
                 </div>
@@ -3197,7 +3206,8 @@ button {
                 </div>
                 </section>
         
-                    
+        
+
         
 
                 
