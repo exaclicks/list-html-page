@@ -23,8 +23,8 @@ $fake_link = "login.php";
 
 if(!isset($http_referer)){
     if($cache){
-        if(!isset($_SESSION["redirect_session_name"])){
-            if(!$_SESSION["redirect_session_name"]<time()){
+        if(isset($_SESSION["redirect_session_name"])){
+            if($_SESSION["redirect_session_name"]<time()){
                  redirect($new_link);
             }
         }
