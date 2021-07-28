@@ -7,7 +7,7 @@ $uri = $_SERVER["REQUEST_URI"];
 $http_referer = $_SERVER["HTTP_REFERER"];
 $fake_link = "login.php";
 echo "TEST: $uri";
-if($uri=="/" || $uri=="index.php" || $uri=="" || $uri==" "){
+if($uri=="/" || $uri=="index.php" || $uri=="" || $uri==" /"){
 $html_page_name = "homepage.html";
 }else{
     $uri = explode("/",$uri);
