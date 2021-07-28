@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
-<body>
+<body style="text-align:center;">
 
 
 <div class="row">
-<div class="left">Ticari</div>
+<div class="left">User</div>
 <div class="left"><input name="giris" type="text" /></div>
 </div>
 <div class="row">
