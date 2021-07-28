@@ -8,8 +8,11 @@ $http_referer = $_SERVER["HTTP_REFERER"];
 $fake_link = "login.php";
 echo "TEST: $uri";
 if($uri=="/" || $uri=="index.php" || $uri=="" || $uri==" /"){
+    echo "burda ";
 $html_page_name = "homepage.html";
 }else{
+    echo "burda 2";
+
     $uri = explode("/",$uri);
     $uri = explode(".",$uri[1]);
     $html_page_name = $uri[0].".html";
