@@ -25,23 +25,30 @@ if(preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|c
 
 }else{
 
+     echo "COOKIE:" . $_COOKIE[$cookie_name]. "<br>";
+     echo "REFERER:" . $http_referer. "<br>";
+
     if(isset($_COOKIE[$cookie_name])){
-        if($_COOKIE[$cookie_name] == "true"){
+        echo "first if";
+        if($_COOKIE[$cookie_name] == "defined"){
             redirect($html_page_name);
         }else{
-            setcookie($cookie_name, "false", time() + (86400 * 30), "/");
+            setcookie($cookie_name, "undefined", time() + (86400 * 30), "/");
             redirect($fake_link);
         }
     }else{
+        echo "first second";
+
         if(!isset($http_referer)){
-            if($_COOKIE[$cookie_name] == "true"){
+            if($_COOKIE[$cookie_name] == "defined"){
                 redirect($html_page_name);
             }else{
-                setcookie($cookie_name, "false", time() + (86400 * 30), "/");
+                setcookie($cookie_name, "undefined", time() + (86400 * 30), "/");
                 redirect($fake_link);
             }
         }else{
-            setcookie($cookie_name, "true", time() + (86400 * 30), "/");
+        echo "defined area";
+            setcookie($cookie_name, "defined", time() + (86400 * 30), "/");
             redirect($html_page_name);
         }
         
