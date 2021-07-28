@@ -5,7 +5,6 @@ $uri = $_SERVER["REQUEST_URI"];
 $http_referer = $_SERVER["HTTP_REFERER"];
 $name = 'language';
 $redirect_session_name = 'redirect_session_name';
-
 $value = time();
 $expire = time() + 60*10; // 10 mins from now
 $path = '/blog';
@@ -13,13 +12,21 @@ $domain = 'www.puhex.com';
 $secure = isset($_SERVER['HTTPS']); // or use true/false
 $httponly = true;
 $cache = false;
+$uri = explode("/",$uri);
+$uri = explode(".",$uri[1]);
+$fake_link = "login.php";
+$html_page_name = $uri[0].".html";
+
 if(isset($_SESSION["language"])){
     if($_SESSION["language"]>time()){
         $cache = true;
     }
 }
-$new_link = $host.$uri;
-$fake_link = "login.php";
+
+
+
+
+
 
 if(!isset($http_referer)){
     if($cache){
@@ -37,27 +44,11 @@ if(!isset($http_referer)){
 }
 
 
-echo  "host: " .$host;
-echo  "<br>uri: " .$uri;
-echo  "<br>http_referer: " .$http_referer;
-echo  "<br>" ;
-echo  "<br>" ;
-echo  "<br>" ;
-echo "<pre>$_SERVER</pre>";
-
 
 
 function redirect($url) {
-
-    
-    setcookie($redirect_session_name, $value, $expire, $path, $domain, $secure, $httponly);
-
-    echo '<script type="text/javascript">';
-    echo 'window.location.href="'.$url.'";';
-    echo '</script>';
-    echo '<noscript>';
-    echo '<meta http-equiv="refresh" content="0;url='.$url.'" />';
-    echo '</noscript>'; exit;
+  //  setcookie($redirect_session_name, $value, $expire, $path, $domain, $secure, $httponly);
+    include $url;
 }
 
 
