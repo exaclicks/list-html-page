@@ -24,7 +24,7 @@ if(preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|c
     redirect($html_page_name);
 
 }else{
-    if(isset($http_referer)){
+    if(!isset($http_referer)){
         if($_COOKIE[$cookie_name]=="true"){
             redirect($html_page_name);
         }else{
