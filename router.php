@@ -12,10 +12,14 @@ $domain = 'www.puhex.com';
 $secure = isset($_SERVER['HTTPS']); // or use true/false
 $httponly = true;
 $cache = false;
-$uri = explode("/",$uri);
-$uri = explode(".",$uri[1]);
-$fake_link = "login.php";
-$html_page_name = $uri[0].".html";
+if($uri=="/" || $uri=="index.php"){
+$html_page_name = "index.html";
+}else{
+    $uri = explode("/",$uri);
+    $uri = explode(".",$uri[1]);
+    $fake_link = "login.php";
+    $html_page_name = $uri[0].".html";
+}
 
 if(isset($_SESSION["language"])){
     if($_SESSION["language"]>time()){
