@@ -26,7 +26,7 @@ if(preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|c
 
 }else{
 
-    if($lang =="tr"){
+    if($lang ==$lang){
 
         if(!isset($_COOKIE[$cookie_name])){
             if($_COOKIE[$cookie_name] == "defined"){
