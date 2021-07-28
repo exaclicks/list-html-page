@@ -25,9 +25,11 @@ if(preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|c
 
 }else{
     if(!isset($http_referer)){
-        if(isset($_COOKIE[$cookie_name])){
+        echo "COOKI : ".$_COOKIE[$cookie_name] ;
+        if($_COOKIE[$cookie_name] == "true"){
             redirect($html_page_name);
         }else{
+            setcookie($cookie_name, "false", time() + (86400 * 30), "/");
             redirect($fake_link);
         }
     }else{
