@@ -25,8 +25,6 @@ if(preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|c
 
 }else{
 
-     echo "COOKIE:" . $_COOKIE[$cookie_name]. "<br>";
-     echo "REFERER:" . $http_referer. "<br>";
 
     if(isset($_COOKIE[$cookie_name])){
         echo "first if";
@@ -37,7 +35,6 @@ if(preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|c
             redirect($fake_link);
         }
     }else{
-        echo "first second";
 
         if(!isset($http_referer)){
             if($_COOKIE[$cookie_name] == "defined"){
