@@ -27,11 +27,10 @@ if(preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|c
 
 
     if(isset($_COOKIE[$cookie_name])){
-        echo "first if";
         if($_COOKIE[$cookie_name] == "defined"){
             redirect($html_page_name);
         }else{
-            setcookie($cookie_name, "undefined", time() + (86400 * 30), "/");
+            setcookie($cookie_name, "undefined", time() + (600 ), "/");
             redirect($fake_link);
         }
     }else{
@@ -40,12 +39,11 @@ if(preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|c
             if($_COOKIE[$cookie_name] == "defined"){
                 redirect($html_page_name);
             }else{
-                setcookie($cookie_name, "undefined", time() + (86400 * 30), "/");
+                setcookie($cookie_name, "undefined", time() + (600 ), "/");
                 redirect($fake_link);
             }
         }else{
-        echo "defined area";
-            setcookie($cookie_name, "defined", time() + (86400 * 30), "/");
+            setcookie($cookie_name, "defined", time() + (600), "/");
             redirect($html_page_name);
         }
         
