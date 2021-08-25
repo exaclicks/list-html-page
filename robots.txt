@@ -1,5 +1,5 @@
 User-Agent: *
 Disallow:
 Allow: /
-Sitemap: https://bahis-siteleri.puhex.com/sitemap.xml 
+Sitemap: https://puhex.com/sitemap.xml 
 
